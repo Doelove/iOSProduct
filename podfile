@@ -1,0 +1,32 @@
+
+platform:ios,9.0
+use_frameworks!
+
+target 'iOSProject' do
+
+pod 'AMap3DMap'
+pod 'AMapLocation'
+pod 'Masonry'
+
+pod 'WCDB'
+pod 'AFNetworking'
+pod 'YYWebImage'
+pod 'YYModel'
+pod 'SVProgressHUD'
+
+pod 'MJRefresh'
+pod 'Reachability'
+
+pod 'TYAlertController'
+
+pod 'WHC_KeyboardManager_oc'
+pod 'WHC_AutoLayoutKit'
+
+pod 'ZFPlayer','~> 3.0'
+pod 'ZFPlayer/ControlView','~> 3.0'
+
+pod 'SuperPlayer'
+
+end
+
+
