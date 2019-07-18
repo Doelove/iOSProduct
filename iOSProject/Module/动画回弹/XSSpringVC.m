@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self setBackBtn];
     [self.view addSubview:self.view1];
     [self.view addSubview:self.view2];
     

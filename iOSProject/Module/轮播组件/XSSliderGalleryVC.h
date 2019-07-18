@@ -18,9 +18,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface XSSliderGalleryVC : XSBaseVC
+@interface XSSliderGalleryVC : UIView
 
-@property(nonatomic,weak)id<SliderGalleryDelegate> delegate;
+//@property(nonatomic,weak)id<SliderGalleryDelegate> delegate;
+- (instancetype)initWithFrame:(CGRect)frame size:(CGSize)size dataSource:(NSArray *)dataSource;
+@property(nonatomic,strong)UIColor *currentPageTintColor;
 
 @end
 

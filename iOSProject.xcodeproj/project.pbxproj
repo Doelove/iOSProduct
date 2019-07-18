@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -42,10 +42,10 @@
 		1C8DC97422DDBA9E001FEDAA /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1C8DC97222DDBA9E001FEDAA /* 2.jpeg */; };
 		1C8DC97522DDBA9E001FEDAA /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1C8DC97322DDBA9E001FEDAA /* 1.jpeg */; };
 		1CA1CE6F22B8C791006096FB /* XSSliderGalleryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1CE6E22B8C791006096FB /* XSSliderGalleryVC.m */; };
-		1CA1CE7222B8D6A7006096FB /* UIImageView+url.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1CE7122B8D6A7006096FB /* UIImageView+url.m */; };
 		1CBB88ED22AF9CAC00E0A1AE /* mineBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CBB88EC22AF9CAC00E0A1AE /* mineBanner.png */; };
 		1CC6963222AF7A7500CD7022 /* XSTableHeaderBigVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6963122AF7A7500CD7022 /* XSTableHeaderBigVC.m */; };
 		96C2C368CC7DCE188DA4FD3A /* Pods_iOSProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6F07049F3B02355155254A /* Pods_iOSProject.framework */; };
+		DB0D7EE822E00F18006342D8 /* XSSliderGalleryMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EE722E00F18006342D8 /* XSSliderGalleryMainVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,14 +136,14 @@
 		1C8DC97322DDBA9E001FEDAA /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 		1CA1CE6D22B8C791006096FB /* XSSliderGalleryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSSliderGalleryVC.h; sourceTree = "<group>"; };
 		1CA1CE6E22B8C791006096FB /* XSSliderGalleryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSliderGalleryVC.m; sourceTree = "<group>"; };
-		1CA1CE7022B8D6A7006096FB /* UIImageView+url.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+url.h"; sourceTree = "<group>"; };
-		1CA1CE7122B8D6A7006096FB /* UIImageView+url.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+url.m"; sourceTree = "<group>"; };
 		1CBB88EC22AF9CAC00E0A1AE /* mineBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mineBanner.png; sourceTree = "<group>"; };
 		1CC6963022AF7A7500CD7022 /* XSTableHeaderBigVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSTableHeaderBigVC.h; sourceTree = "<group>"; };
 		1CC6963122AF7A7500CD7022 /* XSTableHeaderBigVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSTableHeaderBigVC.m; sourceTree = "<group>"; };
 		31BE4B409223590A2EA370DF /* Pods-iOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.debug.xcconfig"; path = "Target Support Files/Pods-iOSProject/Pods-iOSProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8C1945AE0E74F98F72055CA6 /* Pods-iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.release.xcconfig"; path = "Target Support Files/Pods-iOSProject/Pods-iOSProject.release.xcconfig"; sourceTree = "<group>"; };
 		8E6F07049F3B02355155254A /* Pods_iOSProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0D7EE622E00F18006342D8 /* XSSliderGalleryMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSSliderGalleryMainVC.h; sourceTree = "<group>"; };
+		DB0D7EE722E00F18006342D8 /* XSSliderGalleryMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSliderGalleryMainVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -384,9 +384,9 @@
 		1C8DC96322DDB911001FEDAA /* 图片放大滑动 */ = {
 			isa = PBXGroup;
 			children = (
+				1C8DC96622DDB911001FEDAA /* XSImagePinchPan.h */,
 				1C8DC96422DDB911001FEDAA /* XSImagePinchPan.m */,
 				1C8DC96522DDB911001FEDAA /* XSImageSubView.h */,
-				1C8DC96622DDB911001FEDAA /* XSImagePinchPan.h */,
 				1C8DC96722DDB911001FEDAA /* XSImageSubView.m */,
 			);
 			path = "图片放大滑动";
@@ -404,8 +404,8 @@
 		1C8DC96E22DDB921001FEDAA /* 圆角加阴影 */ = {
 			isa = PBXGroup;
 			children = (
-				1C8DC96F22DDB921001FEDAA /* XSCornerShadowVC.m */,
 				1C8DC97022DDB921001FEDAA /* XSCornerShadowVC.h */,
+				1C8DC96F22DDB921001FEDAA /* XSCornerShadowVC.m */,
 			);
 			path = "圆角加阴影";
 			sourceTree = "<group>";
@@ -413,10 +413,10 @@
 		1CA1CE6C22B8C763006096FB /* 轮播组件 */ = {
 			isa = PBXGroup;
 			children = (
+				DB0D7EE622E00F18006342D8 /* XSSliderGalleryMainVC.h */,
+				DB0D7EE722E00F18006342D8 /* XSSliderGalleryMainVC.m */,
 				1CA1CE6D22B8C791006096FB /* XSSliderGalleryVC.h */,
 				1CA1CE6E22B8C791006096FB /* XSSliderGalleryVC.m */,
-				1CA1CE7022B8D6A7006096FB /* UIImageView+url.h */,
-				1CA1CE7122B8D6A7006096FB /* UIImageView+url.m */,
 			);
 			path = "轮播组件";
 			sourceTree = "<group>";
@@ -586,18 +586,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSProject/Pods-iOSProject-resources.sh",
-				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
-				"${PODS_ROOT}/SuperPlayer/SuperPlayer/Resource/SuperPlayer.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-iOSProject/Pods-iOSProject-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SuperPlayer.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-iOSProject/Pods-iOSProject-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -610,50 +603,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSProject/Pods-iOSProject-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/MMLayout/MMLayout.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SQLiteRepairKit/sqliterk.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/TYAlertController/TYAlertController.framework",
-				"${BUILT_PRODUCTS_DIR}/WCDB/WCDB.framework",
-				"${BUILT_PRODUCTS_DIR}/WCDBOptimizedSQLCipher/sqlcipher.framework",
-				"${BUILT_PRODUCTS_DIR}/WHC_AutoLayoutKit/WHC_AutoLayoutKit.framework",
-				"${BUILT_PRODUCTS_DIR}/WHC_KeyboardManager_oc/WHC_KeyboardManager_oc.framework",
-				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
-				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
-				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
-				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/ZFPlayer/ZFPlayer.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-iOSProject/Pods-iOSProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMLayout.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqliterk.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYAlertController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WCDB.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqlcipher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WHC_AutoLayoutKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WHC_KeyboardManager_oc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFPlayer.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-iOSProject/Pods-iOSProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -705,6 +659,7 @@
 				1CA1CE6F22B8C791006096FB /* XSSliderGalleryVC.m in Sources */,
 				1C8DC97122DDB921001FEDAA /* XSCornerShadowVC.m in Sources */,
 				1C177D3E22AF3E0900B0062B /* XSTool.m in Sources */,
+				DB0D7EE822E00F18006342D8 /* XSSliderGalleryMainVC.m in Sources */,
 				1C8DC96D22DDB919001FEDAA /* XSSpringVC.m in Sources */,
 				1C177D3A22AF3E0900B0062B /* UIView+Frame.m in Sources */,
 				1C8DC96222DDB83F001FEDAA /* XSMainCell.m in Sources */,
@@ -717,7 +672,6 @@
 				1C177D3D22AF3E0900B0062B /* XSCommon.m in Sources */,
 				1C177D3122AF3E0900B0062B /* PCCircle.m in Sources */,
 				1C8DC96822DDB911001FEDAA /* XSImagePinchPan.m in Sources */,
-				1CA1CE7222B8D6A7006096FB /* UIImageView+url.m in Sources */,
 				1C177D0C22AF3E0000B0062B /* XSDatabaseTool.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

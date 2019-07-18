@@ -8,9 +8,6 @@
 
 #import "XSSliderGalleryVC.h"
 
-
-
-
 @interface XSSliderGalleryVC ()<UIScrollViewDelegate>
 
 @property(nonatomic,assign)int currentIndex;
@@ -24,37 +21,41 @@
 @property(nonatomic,strong)UIPageControl *pageControl;
 @property(nonatomic,strong)NSTimer *autoScrollTime;
 @property(nonatomic,strong)UIImage *placeholderImage;
-@property(nonatomic,strong)UIColor *currentPageTintColor;
+
 
 
 @end
 
 @implementation XSSliderGalleryVC
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    CGSize size = self.delegate.galleryScrollerViewSize;
-    self.scrollerViewWidth = size.width;
-    self.scrollerViewHeight = size.height;
-    
-    self.dataSource = self.delegate.galleryDataSource;
-    
-    [self.view addSubview:self.scrollerView];
-    self.placeholderImage = [UIImage imageNamed:@""];
-    [self configureImageView];
-    [self configurePageController];
-    [self configAutoScrollTimer];
-    
+- (instancetype)initWithFrame:(CGRect)frame size:(CGSize)size dataSource:(NSArray *)dataSource{
+    self = [super initWithFrame:frame];
+    if (self) {
+//        CGSize size = size;
+        self.scrollerViewWidth = size.width;
+        self.scrollerViewHeight = size.height;
+        
+        self.dataSource = dataSource;
+        self.currentPageTintColor = [UIColor orangeColor];
+        [self addSubview:self.scrollerView];
+        self.placeholderImage = [UIImage imageNamed:@""];
+        [self configureImageView];
+        [self configurePageController];
+        [self configAutoScrollTimer];
+    }
+    return self;
 }
 
+- (void)setCurrentPageTintColor:(UIColor *)currentPageTintColor{
+    _currentPageTintColor = currentPageTintColor;
+}
 
 - (UIScrollView *)scrollerView{
     if (!_scrollerView) {
         _scrollerView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, self.scrollerViewWidth, self.scrollerViewHeight)];
         _scrollerView.delegate = self;
         _scrollerView.showsHorizontalScrollIndicator = NO;
-        _scrollerView.contentSize = CGSizeMake(self.scrollerViewWidth * 3, self.scrollerViewHeight);
+        _scrollerView.contentSize = CGSizeMake(self.scrollerViewWidth * 3, 0);
         _scrollerView.contentOffset = CGPointMake(self.scrollerViewWidth, 0);
         _scrollerView.pagingEnabled = YES;
         _scrollerView.bounces = NO;
@@ -63,20 +64,32 @@
 }
 
 - (void)configureImageView{
-    self.leftImgView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.scrollerViewWidth, self.scrollerViewHeight)];
-    self.middleImgView = [[UIImageView alloc]initWithFrame:CGRectMake(self.scrollerViewWidth, 0, self.scrollerViewWidth, self.scrollerViewHeight)];
-    self.rightImgView = [[UIImageView alloc]initWithFrame:CGRectMake(self.scrollerViewWidth*2, 0, self.scrollerViewWidth, self.scrollerViewHeight)];
+    self.leftImgView = [[UIImageView alloc]initWithFrame:CGRectMake(kScaleWidth(10), kScaleWidth(10), self.scrollerViewWidth-kScaleWidth(20), self.scrollerViewHeight-kScaleWidth(20))];
+    self.middleImgView = [[UIImageView alloc]initWithFrame:CGRectMake(self.scrollerViewWidth+kScaleWidth(10), kScaleWidth(10), self.scrollerViewWidth-kScaleWidth(20), self.scrollerViewHeight-kScaleWidth(20))];
+    self.rightImgView = [[UIImageView alloc]initWithFrame:CGRectMake(self.scrollerViewWidth*2+kScaleWidth(10), kScaleWidth(10), self.scrollerViewWidth-kScaleWidth(20), self.scrollerViewHeight-kScaleWidth(20))];
     
     if (self.dataSource.count != 0) {
-        
+        [self resetImageViewSource];
     }
     [self.scrollerView addSubview:self.leftImgView];
     [self.scrollerView addSubview:self.middleImgView];
     [self.scrollerView addSubview:self.rightImgView];
+    [self configImageLayer:self.leftImgView];
+    [self configImageLayer:self.middleImgView];
+    [self configImageLayer:self.rightImgView];
+}
+
+- (void)configImageLayer:(UIImageView *)imageV{
+    imageV.layer.cornerRadius = kScaleWidth(5);
+    imageV.layer.masksToBounds = YES;
+    
+    
+    
+    
 }
 
 - (void)configAutoScrollTimer{
-    _autoScrollTime = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(handleScroll) userInfo:nil repeats:YES];
+    _autoScrollTime = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(handleScroll) userInfo:nil repeats:YES];
 }
 
 - (void)handleScroll{
@@ -85,11 +98,11 @@
 }
 
 - (void)configurePageController{
-    self.pageControl = [[UIPageControl alloc]initWithFrame:CGRectMake(kScreenWidth/2-60, self.scrollerViewHeight-20, 120, 20)];
+    self.pageControl = [[UIPageControl alloc]initWithFrame:CGRectMake(kScreenWidth/2-kScaleWidth(60), self.scrollerViewHeight-kScaleWidth(30), kScaleWidth(120), kScaleWidth(20))];
     self.pageControl.numberOfPages = self.dataSource.count;
     self.pageControl.userInteractionEnabled = NO;
     self.pageControl.currentPageIndicatorTintColor = self.currentPageTintColor != nil ? self.currentPageTintColor : [UIColor blackColor];
-    [self.view addSubview:self.pageControl];
+    [self addSubview:self.pageControl];
 }
 
 #pragma mark -- scroll 代理
@@ -110,16 +123,37 @@
                 self.currentIndex = (int)self.dataSource.count - 1;
             }
         }
-        
         [self resetImageViewSource];
         self.pageControl.currentPage = self.currentIndex;
-        
     }
+}
+
+// 手动拖拽开始
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
+    // 将计时器失效 防止手动拖动时 计时器也在自动滚动
+    [self.autoScrollTime invalidate];
+}
+
+// 手动拖拽结束
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
+    // 重启计时器
+    [self configAutoScrollTimer];
 }
 
 - (void)resetImageViewSource{
     if (self.currentIndex == 0) {
-//        self.leftImgView.imagefr
+        [self.leftImgView yy_setImageWithURL:self.dataSource.lastObject placeholder:self.placeholderImage];
+        [self.middleImgView yy_setImageWithURL:self.dataSource.firstObject placeholder:self.placeholderImage];
+        int rightImageIndex = self.dataSource.count > 1 ? 1 : 0;
+        [self.rightImgView yy_setImageWithURL:self.dataSource[rightImageIndex] placeholder:self.placeholderImage];
+    }else if (self.currentIndex == self.dataSource.count - 1){
+        [self.leftImgView yy_setImageWithURL:self.dataSource[self.currentIndex-1] placeholder:self.placeholderImage];
+        [self.middleImgView yy_setImageWithURL:self.dataSource.lastObject placeholder:self.placeholderImage];
+        [self.rightImgView yy_setImageWithURL:self.dataSource.firstObject placeholder:self.placeholderImage];
+    }else{
+        [self.leftImgView yy_setImageWithURL:self.dataSource[self.currentIndex-1] placeholder:self.placeholderImage];
+        [self.middleImgView yy_setImageWithURL:self.dataSource[self.currentIndex] placeholder:self.placeholderImage];
+        [self.rightImgView yy_setImageWithURL:self.dataSource[self.currentIndex+1] placeholder:self.placeholderImage];
     }
 }
 

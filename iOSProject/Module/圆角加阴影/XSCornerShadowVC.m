@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self setBackBtn];
     [self.view addSubview:self.baseView];
     [self.view addSubview:self.imgV];
     
