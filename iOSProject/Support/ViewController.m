@@ -29,7 +29,7 @@
     
     self.title = @"iOS Project";
     [self.view addSubview:self.tableView];
-    self.dataList = @[@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播"];
+    self.dataList = @[@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播",@"uiwindow"];
 
 }
 
@@ -68,9 +68,11 @@
     }else if(indexPath.row == 4){
         XSViderPlayerVC *vc = [[XSViderPlayerVC alloc]init];
         [self pushVC:vc];
-    }else{
+    }else if(indexPath.row == 5){
         XSSliderGalleryMainVC *vc = [[XSSliderGalleryMainVC alloc]init];
         [self pushVC:vc];
+    }else{
+        
     }
     
 }

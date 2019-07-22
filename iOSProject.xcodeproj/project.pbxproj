@@ -46,6 +46,9 @@
 		1CC6963222AF7A7500CD7022 /* XSTableHeaderBigVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6963122AF7A7500CD7022 /* XSTableHeaderBigVC.m */; };
 		96C2C368CC7DCE188DA4FD3A /* Pods_iOSProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6F07049F3B02355155254A /* Pods_iOSProject.framework */; };
 		DB0D7EE822E00F18006342D8 /* XSSliderGalleryMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EE722E00F18006342D8 /* XSSliderGalleryMainVC.m */; };
+		DB0D7EEF22E0238D006342D8 /* JYGestureVerifyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EED22E0238D006342D8 /* JYGestureVerifyVC.m */; };
+		DB0D7EF022E0238D006342D8 /* JYGesturePasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EEE22E0238D006342D8 /* JYGesturePasswordVC.m */; };
+		DB0D7EF322E02540006342D8 /* PasswordInputWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EF222E02540006342D8 /* PasswordInputWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +147,12 @@
 		8E6F07049F3B02355155254A /* Pods_iOSProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0D7EE622E00F18006342D8 /* XSSliderGalleryMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSSliderGalleryMainVC.h; sourceTree = "<group>"; };
 		DB0D7EE722E00F18006342D8 /* XSSliderGalleryMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSliderGalleryMainVC.m; sourceTree = "<group>"; };
+		DB0D7EEB22E0238D006342D8 /* JYGestureVerifyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYGestureVerifyVC.h; sourceTree = "<group>"; };
+		DB0D7EEC22E0238D006342D8 /* JYGesturePasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYGesturePasswordVC.h; sourceTree = "<group>"; };
+		DB0D7EED22E0238D006342D8 /* JYGestureVerifyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYGestureVerifyVC.m; sourceTree = "<group>"; };
+		DB0D7EEE22E0238D006342D8 /* JYGesturePasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYGesturePasswordVC.m; sourceTree = "<group>"; };
+		DB0D7EF122E02540006342D8 /* PasswordInputWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordInputWindow.h; sourceTree = "<group>"; };
+		DB0D7EF222E02540006342D8 /* PasswordInputWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordInputWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +290,7 @@
 		1C177D0722AF3E0000B0062B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				DB0D7EE922E02347006342D8 /* 手势密码（UIWindow） */,
 				1C8DC96E22DDB921001FEDAA /* 圆角加阴影 */,
 				1C8DC96A22DDB919001FEDAA /* 动画回弹 */,
 				1C8DC96322DDB911001FEDAA /* 图片放大滑动 */,
@@ -446,6 +456,27 @@
 				8C1945AE0E74F98F72055CA6 /* Pods-iOSProject.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB0D7EE922E02347006342D8 /* 手势密码（UIWindow） */ = {
+			isa = PBXGroup;
+			children = (
+				DB0D7EEA22E0238D006342D8 /* GestruePassword */,
+				DB0D7EF122E02540006342D8 /* PasswordInputWindow.h */,
+				DB0D7EF222E02540006342D8 /* PasswordInputWindow.m */,
+			);
+			path = "手势密码（UIWindow）";
+			sourceTree = "<group>";
+		};
+		DB0D7EEA22E0238D006342D8 /* GestruePassword */ = {
+			isa = PBXGroup;
+			children = (
+				DB0D7EEB22E0238D006342D8 /* JYGestureVerifyVC.h */,
+				DB0D7EED22E0238D006342D8 /* JYGestureVerifyVC.m */,
+				DB0D7EEC22E0238D006342D8 /* JYGesturePasswordVC.h */,
+				DB0D7EEE22E0238D006342D8 /* JYGesturePasswordVC.m */,
+			);
+			path = GestruePassword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -657,6 +688,7 @@
 				1C177CF822AF3B7100B0062B /* main.m in Sources */,
 				1C177D3722AF3E0900B0062B /* SPPageMenu.m in Sources */,
 				1CA1CE6F22B8C791006096FB /* XSSliderGalleryVC.m in Sources */,
+				DB0D7EF322E02540006342D8 /* PasswordInputWindow.m in Sources */,
 				1C8DC97122DDB921001FEDAA /* XSCornerShadowVC.m in Sources */,
 				1C177D3E22AF3E0900B0062B /* XSTool.m in Sources */,
 				DB0D7EE822E00F18006342D8 /* XSSliderGalleryMainVC.m in Sources */,
@@ -665,6 +697,7 @@
 				1C8DC96222DDB83F001FEDAA /* XSMainCell.m in Sources */,
 				1C177CF522AF3B7100B0062B /* ViewController.m in Sources */,
 				1C177D3B22AF3E0900B0062B /* XSUserDefaultTool.m in Sources */,
+				DB0D7EEF22E0238D006342D8 /* JYGestureVerifyVC.m in Sources */,
 				1C177D3622AF3E0900B0062B /* PCLockLabel.m in Sources */,
 				1C177D3C22AF3E0900B0062B /* XSRequestManager.m in Sources */,
 				1C177CF922AF3B7100B0062B /* AppDelegate.m in Sources */,
@@ -672,6 +705,7 @@
 				1C177D3D22AF3E0900B0062B /* XSCommon.m in Sources */,
 				1C177D3122AF3E0900B0062B /* PCCircle.m in Sources */,
 				1C8DC96822DDB911001FEDAA /* XSImagePinchPan.m in Sources */,
+				DB0D7EF022E0238D006342D8 /* JYGesturePasswordVC.m in Sources */,
 				1C177D0C22AF3E0000B0062B /* XSDatabaseTool.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
