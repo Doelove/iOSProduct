@@ -49,6 +49,7 @@
 		DB0D7EEF22E0238D006342D8 /* JYGestureVerifyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EED22E0238D006342D8 /* JYGestureVerifyVC.m */; };
 		DB0D7EF022E0238D006342D8 /* JYGesturePasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EEE22E0238D006342D8 /* JYGesturePasswordVC.m */; };
 		DB0D7EF322E02540006342D8 /* PasswordInputWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EF222E02540006342D8 /* PasswordInputWindow.m */; };
+		DB51EF00230111D600B64CAA /* XSCellEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51EEFF230111D600B64CAA /* XSCellEditVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +154,8 @@
 		DB0D7EEE22E0238D006342D8 /* JYGesturePasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYGesturePasswordVC.m; sourceTree = "<group>"; };
 		DB0D7EF122E02540006342D8 /* PasswordInputWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordInputWindow.h; sourceTree = "<group>"; };
 		DB0D7EF222E02540006342D8 /* PasswordInputWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordInputWindow.m; sourceTree = "<group>"; };
+		DB51EEFE230111D600B64CAA /* XSCellEditVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCellEditVC.h; sourceTree = "<group>"; };
+		DB51EEFF230111D600B64CAA /* XSCellEditVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCellEditVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +293,7 @@
 		1C177D0722AF3E0000B0062B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				DB51EEFD230111B000B64CAA /* cell左滑编辑 */,
 				DB0D7EE922E02347006342D8 /* 手势密码（UIWindow） */,
 				1C8DC96E22DDB921001FEDAA /* 圆角加阴影 */,
 				1C8DC96A22DDB919001FEDAA /* 动画回弹 */,
@@ -477,6 +481,15 @@
 				DB0D7EEE22E0238D006342D8 /* JYGesturePasswordVC.m */,
 			);
 			path = GestruePassword;
+			sourceTree = "<group>";
+		};
+		DB51EEFD230111B000B64CAA /* cell左滑编辑 */ = {
+			isa = PBXGroup;
+			children = (
+				DB51EEFE230111D600B64CAA /* XSCellEditVC.h */,
+				DB51EEFF230111D600B64CAA /* XSCellEditVC.m */,
+			);
+			path = "cell左滑编辑";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -705,6 +718,7 @@
 				1C177D3D22AF3E0900B0062B /* XSCommon.m in Sources */,
 				1C177D3122AF3E0900B0062B /* PCCircle.m in Sources */,
 				1C8DC96822DDB911001FEDAA /* XSImagePinchPan.m in Sources */,
+				DB51EF00230111D600B64CAA /* XSCellEditVC.m in Sources */,
 				DB0D7EF022E0238D006342D8 /* JYGesturePasswordVC.m in Sources */,
 				1C177D0C22AF3E0000B0062B /* XSDatabaseTool.mm in Sources */,
 			);

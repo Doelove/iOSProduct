@@ -14,6 +14,7 @@
 #import "XSViderPlayerVC.h"
 #import "XSSliderGalleryMainVC.h"
 #import "XSMainCell.h"
+#import "XSCellEditVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -29,7 +30,7 @@
     
     self.title = @"iOS Project";
     [self.view addSubview:self.tableView];
-    self.dataList = @[@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播",@"uiwindow"];
+    self.dataList = @[@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播",@"uiwindow",@"cell左滑编辑"];
 
 }
 
@@ -70,6 +71,9 @@
         [self pushVC:vc];
     }else if(indexPath.row == 5){
         XSSliderGalleryMainVC *vc = [[XSSliderGalleryMainVC alloc]init];
+        [self pushVC:vc];
+    }else if (indexPath.row == 7){
+        XSCellEditVC *vc = [[XSCellEditVC alloc]init];
         [self pushVC:vc];
     }else{
         
