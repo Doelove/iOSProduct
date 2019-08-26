@@ -50,6 +50,9 @@
 		DB0D7EF022E0238D006342D8 /* JYGesturePasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EEE22E0238D006342D8 /* JYGesturePasswordVC.m */; };
 		DB0D7EF322E02540006342D8 /* PasswordInputWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EF222E02540006342D8 /* PasswordInputWindow.m */; };
 		DB51EF00230111D600B64CAA /* XSCellEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51EEFF230111D600B64CAA /* XSCellEditVC.m */; };
+		DBF0122C2313B1D000AB25F2 /* JYCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012272313B1D000AB25F2 /* JYCalendarView.m */; };
+		DBF0122D2313B1D000AB25F2 /* NSDate+DaboExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */; };
+		DBF012302313B27C00AB25F2 /* XSCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF0122F2313B27C00AB25F2 /* XSCalendarVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +159,12 @@
 		DB0D7EF222E02540006342D8 /* PasswordInputWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordInputWindow.m; sourceTree = "<group>"; };
 		DB51EEFE230111D600B64CAA /* XSCellEditVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCellEditVC.h; sourceTree = "<group>"; };
 		DB51EEFF230111D600B64CAA /* XSCellEditVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCellEditVC.m; sourceTree = "<group>"; };
+		DBF012252313B1D000AB25F2 /* NSDate+DaboExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DaboExtension.h"; sourceTree = "<group>"; };
+		DBF012272313B1D000AB25F2 /* JYCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCalendarView.m; sourceTree = "<group>"; };
+		DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DaboExtension.m"; sourceTree = "<group>"; };
+		DBF0122A2313B1D000AB25F2 /* JYCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCalendarView.h; sourceTree = "<group>"; };
+		DBF0122E2313B27C00AB25F2 /* XSCalendarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCalendarVC.h; sourceTree = "<group>"; };
+		DBF0122F2313B27C00AB25F2 /* XSCalendarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCalendarVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +302,7 @@
 		1C177D0722AF3E0000B0062B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				DBF012242313B1D000AB25F2 /* 日历 */,
 				DB51EEFD230111B000B64CAA /* cell左滑编辑 */,
 				DB0D7EE922E02347006342D8 /* 手势密码（UIWindow） */,
 				1C8DC96E22DDB921001FEDAA /* 圆角加阴影 */,
@@ -492,6 +502,19 @@
 			path = "cell左滑编辑";
 			sourceTree = "<group>";
 		};
+		DBF012242313B1D000AB25F2 /* 日历 */ = {
+			isa = PBXGroup;
+			children = (
+				DBF012252313B1D000AB25F2 /* NSDate+DaboExtension.h */,
+				DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */,
+				DBF0122A2313B1D000AB25F2 /* JYCalendarView.h */,
+				DBF012272313B1D000AB25F2 /* JYCalendarView.m */,
+				DBF0122E2313B27C00AB25F2 /* XSCalendarVC.h */,
+				DBF0122F2313B27C00AB25F2 /* XSCalendarVC.m */,
+			);
+			path = "日历";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -687,6 +710,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF012302313B27C00AB25F2 /* XSCalendarVC.m in Sources */,
 				1C0E27AE22C36FF700B0149E /* XSViderPlayerVC.m in Sources */,
 				1C177D3522AF3E0900B0062B /* PCCircleInfoView.m in Sources */,
 				1C8DC96922DDB911001FEDAA /* XSImageSubView.m in Sources */,
@@ -702,9 +726,11 @@
 				1C177D3722AF3E0900B0062B /* SPPageMenu.m in Sources */,
 				1CA1CE6F22B8C791006096FB /* XSSliderGalleryVC.m in Sources */,
 				DB0D7EF322E02540006342D8 /* PasswordInputWindow.m in Sources */,
+				DBF0122D2313B1D000AB25F2 /* NSDate+DaboExtension.m in Sources */,
 				1C8DC97122DDB921001FEDAA /* XSCornerShadowVC.m in Sources */,
 				1C177D3E22AF3E0900B0062B /* XSTool.m in Sources */,
 				DB0D7EE822E00F18006342D8 /* XSSliderGalleryMainVC.m in Sources */,
+				DBF0122C2313B1D000AB25F2 /* JYCalendarView.m in Sources */,
 				1C8DC96D22DDB919001FEDAA /* XSSpringVC.m in Sources */,
 				1C177D3A22AF3E0900B0062B /* UIView+Frame.m in Sources */,
 				1C8DC96222DDB83F001FEDAA /* XSMainCell.m in Sources */,
