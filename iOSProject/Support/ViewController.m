@@ -16,8 +16,10 @@
 #import "XSMainCell.h"
 #import "XSCellEditVC.h"
 #import "XSCalendarVC.h"
-
-
+#import "XSSideMenuMainVC.h"
+#import "XSAMapVC.h"
+#import "XSShareVC.h"
+#import "XSLocalNotiVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -33,7 +35,7 @@
     
     self.title = @"iOS Project";
     [self.view addSubview:self.tableView];
-    self.dataList = @[@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播",@"uiwindow",@"cell左滑编辑",@"日历"];
+    self.dataList = @[@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播",@"uiwindow",@"cell左滑编辑",@"日历",@"侧边栏",@"地理编码",@"原生分享",@"本地通知"];
 
 }
 
@@ -42,7 +44,7 @@
         _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight-navgationHeight) style:UITableViewStylePlain];
         _tableView.delegate = self;
         _tableView.dataSource = self;
-        _tableView.backgroundColor = self.tableViewColor;
+        _tableView.backgroundColor = [XSTool colorWithHexString:tableViewColor];
         _tableView.separatorStyle = UITableViewCellSelectionStyleNone;
         [_tableView registerClass:[XSMainCell class] forCellReuseIdentifier:XSMainCellID];
     }
@@ -78,8 +80,22 @@
     }else if (indexPath.row == 7){
         XSCellEditVC *vc = [[XSCellEditVC alloc]init];
         [self pushVC:vc];
-    }else{
+    }else if (indexPath.row == 8){
         XSCalendarVC *vc = [[XSCalendarVC alloc]init];
+        [self pushVC:vc];
+    }else if (indexPath.row == 9){
+        XSSideMenuHomeVC *homeVC = [[XSSideMenuHomeVC alloc]init];
+        XSSideMenuRightVC *rightVC = [[XSSideMenuRightVC alloc]init];
+        XSSideMenuMainVC *vc = [XSSideMenuMainVC createMainVCWithHomeVC:homeVC rightVC:rightVC];
+        [self pushVC:vc];
+    }else if (indexPath.row == 10){
+        XSAMapVC *vc = [[XSAMapVC alloc]init];
+        [self pushVC:vc];
+    }else if (indexPath.row == 11){
+        XSShareVC *vc = [[XSShareVC alloc]init];
+        [self pushVC:vc];
+    }else if (indexPath.row == 12){
+        XSLocalNotiVC *vc = [[XSLocalNotiVC alloc]init];
         [self pushVC:vc];
     }
     

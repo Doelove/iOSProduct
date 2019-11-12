@@ -22,7 +22,6 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
     
     self.tabbarHeight = self.tabBarController.tabBar.frame.size.height;
-    self.tableViewColor = [XSTool colorWithHexString:@"#F5F7FA"];
     
     [[WHC_KeyboardManager share]addMonitorViewController:self];
     self.view.backgroundColor = [UIColor whiteColor];

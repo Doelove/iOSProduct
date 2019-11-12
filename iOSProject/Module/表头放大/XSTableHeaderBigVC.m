@@ -31,7 +31,7 @@
         _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight-navgationHeight) style:UITableViewStylePlain];
         _tableView.delegate = self;
         _tableView.dataSource = self;
-        _tableView.backgroundColor = self.tableViewColor;
+        _tableView.backgroundColor = [XSTool colorWithHexString:tableViewColor];
         _tableView.separatorStyle = UITableViewCellSelectionStyleNone;
     }
     return _tableView;

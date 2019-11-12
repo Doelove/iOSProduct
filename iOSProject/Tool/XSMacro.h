@@ -47,6 +47,10 @@ typedef void(^SelectBlock)(void);
 #define kNotiConfigLogin    @"kNotiConfigLogin"
 
 
+#define linecolor       @"eeeeee"
+#define textcolor       @"212B36"
+#define tableViewColor  @"F5F7FA"
+#define navcolor        @"1397E8"
 
 
 

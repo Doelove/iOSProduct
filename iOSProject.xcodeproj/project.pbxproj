@@ -49,10 +49,21 @@
 		DB0D7EEF22E0238D006342D8 /* JYGestureVerifyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EED22E0238D006342D8 /* JYGestureVerifyVC.m */; };
 		DB0D7EF022E0238D006342D8 /* JYGesturePasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EEE22E0238D006342D8 /* JYGesturePasswordVC.m */; };
 		DB0D7EF322E02540006342D8 /* PasswordInputWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EF222E02540006342D8 /* PasswordInputWindow.m */; };
+		DB1587B2236136EE000236F9 /* XSAMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1587B1236136EE000236F9 /* XSAMapVC.m */; };
 		DB51EF00230111D600B64CAA /* XSCellEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51EEFF230111D600B64CAA /* XSCellEditVC.m */; };
+		DB7BEFF42373B7AD00F0E1B3 /* XSShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7BEFF32373B7AD00F0E1B3 /* XSShareVC.m */; };
+		DB7BEFF62373BB8700F0E1B3 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7BEFF52373BB8700F0E1B3 /* 80.png */; };
+		DB7BF03F2375604500F0E1B3 /* XSLocalNotiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */; };
 		DBF0122C2313B1D000AB25F2 /* JYCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012272313B1D000AB25F2 /* JYCalendarView.m */; };
 		DBF0122D2313B1D000AB25F2 /* NSDate+DaboExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */; };
 		DBF012302313B27C00AB25F2 /* XSCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF0122F2313B27C00AB25F2 /* XSCalendarVC.m */; };
+		DBF012342313B7D700AB25F2 /* XSSideMenuMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012332313B7D700AB25F2 /* XSSideMenuMainVC.m */; };
+		DBF012372313B8FD00AB25F2 /* XSSideMenuHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012362313B8FD00AB25F2 /* XSSideMenuHomeVC.m */; };
+		DBF0123A2313B91100AB25F2 /* XSSideMenuRightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012392313B91100AB25F2 /* XSSideMenuRightVC.m */; };
+		DBF0123D2313BCF500AB25F2 /* CRM_TargetIns_Structure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF0123B2313BCF500AB25F2 /* CRM_TargetIns_Structure@2x.png */; };
+		DBF0123E2313BCF500AB25F2 /* CRM_TargetIns_Structure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF0123C2313BCF500AB25F2 /* CRM_TargetIns_Structure@3x.png */; };
+		DBF012412313BD4100AB25F2 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF0123F2313BD4100AB25F2 /* back@2x.png */; };
+		DBF012422313BD4100AB25F2 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF012402313BD4100AB25F2 /* back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,14 +168,31 @@
 		DB0D7EEE22E0238D006342D8 /* JYGesturePasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYGesturePasswordVC.m; sourceTree = "<group>"; };
 		DB0D7EF122E02540006342D8 /* PasswordInputWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordInputWindow.h; sourceTree = "<group>"; };
 		DB0D7EF222E02540006342D8 /* PasswordInputWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordInputWindow.m; sourceTree = "<group>"; };
+		DB1587B0236136EE000236F9 /* XSAMapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSAMapVC.h; sourceTree = "<group>"; };
+		DB1587B1236136EE000236F9 /* XSAMapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSAMapVC.m; sourceTree = "<group>"; };
 		DB51EEFE230111D600B64CAA /* XSCellEditVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCellEditVC.h; sourceTree = "<group>"; };
 		DB51EEFF230111D600B64CAA /* XSCellEditVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCellEditVC.m; sourceTree = "<group>"; };
+		DB7BEFF22373B7AD00F0E1B3 /* XSShareVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSShareVC.h; sourceTree = "<group>"; };
+		DB7BEFF32373B7AD00F0E1B3 /* XSShareVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSShareVC.m; sourceTree = "<group>"; };
+		DB7BEFF52373BB8700F0E1B3 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		DB7BF03D2375604500F0E1B3 /* XSLocalNotiVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSLocalNotiVC.h; sourceTree = "<group>"; };
+		DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSLocalNotiVC.m; sourceTree = "<group>"; };
 		DBF012252313B1D000AB25F2 /* NSDate+DaboExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DaboExtension.h"; sourceTree = "<group>"; };
 		DBF012272313B1D000AB25F2 /* JYCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCalendarView.m; sourceTree = "<group>"; };
 		DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DaboExtension.m"; sourceTree = "<group>"; };
 		DBF0122A2313B1D000AB25F2 /* JYCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCalendarView.h; sourceTree = "<group>"; };
 		DBF0122E2313B27C00AB25F2 /* XSCalendarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCalendarVC.h; sourceTree = "<group>"; };
 		DBF0122F2313B27C00AB25F2 /* XSCalendarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCalendarVC.m; sourceTree = "<group>"; };
+		DBF012322313B7D700AB25F2 /* XSSideMenuMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSSideMenuMainVC.h; sourceTree = "<group>"; };
+		DBF012332313B7D700AB25F2 /* XSSideMenuMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSideMenuMainVC.m; sourceTree = "<group>"; };
+		DBF012352313B8FD00AB25F2 /* XSSideMenuHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSSideMenuHomeVC.h; sourceTree = "<group>"; };
+		DBF012362313B8FD00AB25F2 /* XSSideMenuHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSideMenuHomeVC.m; sourceTree = "<group>"; };
+		DBF012382313B91100AB25F2 /* XSSideMenuRightVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSSideMenuRightVC.h; sourceTree = "<group>"; };
+		DBF012392313B91100AB25F2 /* XSSideMenuRightVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSideMenuRightVC.m; sourceTree = "<group>"; };
+		DBF0123B2313BCF500AB25F2 /* CRM_TargetIns_Structure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRM_TargetIns_Structure@2x.png"; sourceTree = "<group>"; };
+		DBF0123C2313BCF500AB25F2 /* CRM_TargetIns_Structure@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRM_TargetIns_Structure@3x.png"; sourceTree = "<group>"; };
+		DBF0123F2313BD4100AB25F2 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		DBF012402313BD4100AB25F2 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +330,10 @@
 		1C177D0722AF3E0000B0062B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				DB7BF03C2375602C00F0E1B3 /* 本地通知 */,
+				DB7BEFF12373B78C00F0E1B3 /* 原生分享 */,
+				DB1587AF236136CD000236F9 /* 地理编码 */,
+				DBF012312313B7B100AB25F2 /* 侧边栏 */,
 				DBF012242313B1D000AB25F2 /* 日历 */,
 				DB51EEFD230111B000B64CAA /* cell左滑编辑 */,
 				DB0D7EE922E02347006342D8 /* 手势密码（UIWindow） */,
@@ -448,9 +480,14 @@
 		1CBB88EB22AF9CAC00E0A1AE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				DB7BEFF52373BB8700F0E1B3 /* 80.png */,
 				1CBB88EC22AF9CAC00E0A1AE /* mineBanner.png */,
 				1C8DC97322DDBA9E001FEDAA /* 1.jpeg */,
 				1C8DC97222DDBA9E001FEDAA /* 2.jpeg */,
+				DBF012402313BD4100AB25F2 /* back.png */,
+				DBF0123F2313BD4100AB25F2 /* back@2x.png */,
+				DBF0123B2313BCF500AB25F2 /* CRM_TargetIns_Structure@2x.png */,
+				DBF0123C2313BCF500AB25F2 /* CRM_TargetIns_Structure@3x.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -493,6 +530,15 @@
 			path = GestruePassword;
 			sourceTree = "<group>";
 		};
+		DB1587AF236136CD000236F9 /* 地理编码 */ = {
+			isa = PBXGroup;
+			children = (
+				DB1587B0236136EE000236F9 /* XSAMapVC.h */,
+				DB1587B1236136EE000236F9 /* XSAMapVC.m */,
+			);
+			path = "地理编码";
+			sourceTree = "<group>";
+		};
 		DB51EEFD230111B000B64CAA /* cell左滑编辑 */ = {
 			isa = PBXGroup;
 			children = (
@@ -500,6 +546,24 @@
 				DB51EEFF230111D600B64CAA /* XSCellEditVC.m */,
 			);
 			path = "cell左滑编辑";
+			sourceTree = "<group>";
+		};
+		DB7BEFF12373B78C00F0E1B3 /* 原生分享 */ = {
+			isa = PBXGroup;
+			children = (
+				DB7BEFF22373B7AD00F0E1B3 /* XSShareVC.h */,
+				DB7BEFF32373B7AD00F0E1B3 /* XSShareVC.m */,
+			);
+			path = "原生分享";
+			sourceTree = "<group>";
+		};
+		DB7BF03C2375602C00F0E1B3 /* 本地通知 */ = {
+			isa = PBXGroup;
+			children = (
+				DB7BF03D2375604500F0E1B3 /* XSLocalNotiVC.h */,
+				DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */,
+			);
+			path = "本地通知";
 			sourceTree = "<group>";
 		};
 		DBF012242313B1D000AB25F2 /* 日历 */ = {
@@ -513,6 +577,19 @@
 				DBF0122F2313B27C00AB25F2 /* XSCalendarVC.m */,
 			);
 			path = "日历";
+			sourceTree = "<group>";
+		};
+		DBF012312313B7B100AB25F2 /* 侧边栏 */ = {
+			isa = PBXGroup;
+			children = (
+				DBF012322313B7D700AB25F2 /* XSSideMenuMainVC.h */,
+				DBF012332313B7D700AB25F2 /* XSSideMenuMainVC.m */,
+				DBF012352313B8FD00AB25F2 /* XSSideMenuHomeVC.h */,
+				DBF012362313B8FD00AB25F2 /* XSSideMenuHomeVC.m */,
+				DBF012382313B91100AB25F2 /* XSSideMenuRightVC.h */,
+				DBF012392313B91100AB25F2 /* XSSideMenuRightVC.m */,
+			);
+			path = "侧边栏";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -624,8 +701,13 @@
 				1C8DC97422DDBA9E001FEDAA /* 2.jpeg in Resources */,
 				1C8DC97522DDBA9E001FEDAA /* 1.jpeg in Resources */,
 				1C177CF722AF3B7100B0062B /* Main.storyboard in Resources */,
+				DBF0123D2313BCF500AB25F2 /* CRM_TargetIns_Structure@2x.png in Resources */,
 				1C177CF422AF3B7100B0062B /* Assets.xcassets in Resources */,
+				DBF012412313BD4100AB25F2 /* back@2x.png in Resources */,
+				DBF012422313BD4100AB25F2 /* back.png in Resources */,
+				DB7BEFF62373BB8700F0E1B3 /* 80.png in Resources */,
 				1CBB88ED22AF9CAC00E0A1AE /* mineBanner.png in Resources */,
+				DBF0123E2313BCF500AB25F2 /* CRM_TargetIns_Structure@3x.png in Resources */,
 				1C177CF622AF3B7100B0062B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -722,12 +804,16 @@
 				1C177D3222AF3E0900B0062B /* PCCircleViewConst.m in Sources */,
 				1C177D0922AF3E0000B0062B /* XSBaseTableCell.m in Sources */,
 				1C177D3422AF3E0900B0062B /* CALayer+Anim.m in Sources */,
+				DB7BF03F2375604500F0E1B3 /* XSLocalNotiVC.m in Sources */,
 				1C177CF822AF3B7100B0062B /* main.m in Sources */,
+				DB7BEFF42373B7AD00F0E1B3 /* XSShareVC.m in Sources */,
 				1C177D3722AF3E0900B0062B /* SPPageMenu.m in Sources */,
 				1CA1CE6F22B8C791006096FB /* XSSliderGalleryVC.m in Sources */,
 				DB0D7EF322E02540006342D8 /* PasswordInputWindow.m in Sources */,
+				DB1587B2236136EE000236F9 /* XSAMapVC.m in Sources */,
 				DBF0122D2313B1D000AB25F2 /* NSDate+DaboExtension.m in Sources */,
 				1C8DC97122DDB921001FEDAA /* XSCornerShadowVC.m in Sources */,
+				DBF012372313B8FD00AB25F2 /* XSSideMenuHomeVC.m in Sources */,
 				1C177D3E22AF3E0900B0062B /* XSTool.m in Sources */,
 				DB0D7EE822E00F18006342D8 /* XSSliderGalleryMainVC.m in Sources */,
 				DBF0122C2313B1D000AB25F2 /* JYCalendarView.m in Sources */,
@@ -740,8 +826,10 @@
 				1C177D3622AF3E0900B0062B /* PCLockLabel.m in Sources */,
 				1C177D3C22AF3E0900B0062B /* XSRequestManager.m in Sources */,
 				1C177CF922AF3B7100B0062B /* AppDelegate.m in Sources */,
+				DBF012342313B7D700AB25F2 /* XSSideMenuMainVC.m in Sources */,
 				1CC6963222AF7A7500CD7022 /* XSTableHeaderBigVC.m in Sources */,
 				1C177D3D22AF3E0900B0062B /* XSCommon.m in Sources */,
+				DBF0123A2313B91100AB25F2 /* XSSideMenuRightVC.m in Sources */,
 				1C177D3122AF3E0900B0062B /* PCCircle.m in Sources */,
 				1C8DC96822DDB911001FEDAA /* XSImagePinchPan.m in Sources */,
 				DB51EF00230111D600B64CAA /* XSCellEditVC.m in Sources */,
@@ -921,12 +1009,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSProject/Support/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/iOSProject/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.iOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -942,12 +1032,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSProject/Support/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/iOSProject/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.iOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

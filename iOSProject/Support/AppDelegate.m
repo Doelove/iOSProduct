@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "PasswordInputWindow.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
 
 @interface AppDelegate ()
 
@@ -21,6 +22,11 @@
 
     [self configNavBar];
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
+    
+    
+    [AMapServices sharedServices].apiKey = AMapID;
+    
+    
     return YES;
 }
 
