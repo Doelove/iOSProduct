@@ -54,6 +54,12 @@
 		DB7BEFF42373B7AD00F0E1B3 /* XSShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7BEFF32373B7AD00F0E1B3 /* XSShareVC.m */; };
 		DB7BEFF62373BB8700F0E1B3 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7BEFF52373BB8700F0E1B3 /* 80.png */; };
 		DB7BF03F2375604500F0E1B3 /* XSLocalNotiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */; };
+		DBD37EDE2383D4A20008F403 /* XSKYClearClassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD37EDD2383D4A20008F403 /* XSKYClearClassVC.m */; };
+		DBD37EE12383D4B30008F403 /* JYPendApprovalManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD37EE02383D4B30008F403 /* JYPendApprovalManagerView.m */; };
+		DBD37EE62383D86A0008F403 /* CRM_pendPass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD37EE22383D8690008F403 /* CRM_pendPass@2x.png */; };
+		DBD37EE72383D86A0008F403 /* CRM_pendVeto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD37EE32383D8690008F403 /* CRM_pendVeto@2x.png */; };
+		DBD37EE82383D86A0008F403 /* CRM_pendPass@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD37EE42383D86A0008F403 /* CRM_pendPass@3x.png */; };
+		DBD37EE92383D86A0008F403 /* CRM_pendVeto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD37EE52383D86A0008F403 /* CRM_pendVeto@3x.png */; };
 		DBF0122C2313B1D000AB25F2 /* JYCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012272313B1D000AB25F2 /* JYCalendarView.m */; };
 		DBF0122D2313B1D000AB25F2 /* NSDate+DaboExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */; };
 		DBF012302313B27C00AB25F2 /* XSCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF0122F2313B27C00AB25F2 /* XSCalendarVC.m */; };
@@ -177,6 +183,14 @@
 		DB7BEFF52373BB8700F0E1B3 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
 		DB7BF03D2375604500F0E1B3 /* XSLocalNotiVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSLocalNotiVC.h; sourceTree = "<group>"; };
 		DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSLocalNotiVC.m; sourceTree = "<group>"; };
+		DBD37EDC2383D4A20008F403 /* XSKYClearClassVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSKYClearClassVC.h; sourceTree = "<group>"; };
+		DBD37EDD2383D4A20008F403 /* XSKYClearClassVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSKYClearClassVC.m; sourceTree = "<group>"; };
+		DBD37EDF2383D4B30008F403 /* JYPendApprovalManagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPendApprovalManagerView.h; sourceTree = "<group>"; };
+		DBD37EE02383D4B30008F403 /* JYPendApprovalManagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPendApprovalManagerView.m; sourceTree = "<group>"; };
+		DBD37EE22383D8690008F403 /* CRM_pendPass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRM_pendPass@2x.png"; sourceTree = "<group>"; };
+		DBD37EE32383D8690008F403 /* CRM_pendVeto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRM_pendVeto@2x.png"; sourceTree = "<group>"; };
+		DBD37EE42383D86A0008F403 /* CRM_pendPass@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRM_pendPass@3x.png"; sourceTree = "<group>"; };
+		DBD37EE52383D86A0008F403 /* CRM_pendVeto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRM_pendVeto@3x.png"; sourceTree = "<group>"; };
 		DBF012252313B1D000AB25F2 /* NSDate+DaboExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DaboExtension.h"; sourceTree = "<group>"; };
 		DBF012272313B1D000AB25F2 /* JYCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCalendarView.m; sourceTree = "<group>"; };
 		DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DaboExtension.m"; sourceTree = "<group>"; };
@@ -330,6 +344,7 @@
 		1C177D0722AF3E0000B0062B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				DBD37EDB2383D4740008F403 /* KYClearClass */,
 				DB7BF03C2375602C00F0E1B3 /* 本地通知 */,
 				DB7BEFF12373B78C00F0E1B3 /* 原生分享 */,
 				DB1587AF236136CD000236F9 /* 地理编码 */,
@@ -480,6 +495,10 @@
 		1CBB88EB22AF9CAC00E0A1AE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				DBD37EE22383D8690008F403 /* CRM_pendPass@2x.png */,
+				DBD37EE42383D86A0008F403 /* CRM_pendPass@3x.png */,
+				DBD37EE32383D8690008F403 /* CRM_pendVeto@2x.png */,
+				DBD37EE52383D86A0008F403 /* CRM_pendVeto@3x.png */,
 				DB7BEFF52373BB8700F0E1B3 /* 80.png */,
 				1CBB88EC22AF9CAC00E0A1AE /* mineBanner.png */,
 				1C8DC97322DDBA9E001FEDAA /* 1.jpeg */,
@@ -564,6 +583,17 @@
 				DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */,
 			);
 			path = "本地通知";
+			sourceTree = "<group>";
+		};
+		DBD37EDB2383D4740008F403 /* KYClearClass */ = {
+			isa = PBXGroup;
+			children = (
+				DBD37EDC2383D4A20008F403 /* XSKYClearClassVC.h */,
+				DBD37EDD2383D4A20008F403 /* XSKYClearClassVC.m */,
+				DBD37EDF2383D4B30008F403 /* JYPendApprovalManagerView.h */,
+				DBD37EE02383D4B30008F403 /* JYPendApprovalManagerView.m */,
+			);
+			path = KYClearClass;
 			sourceTree = "<group>";
 		};
 		DBF012242313B1D000AB25F2 /* 日历 */ = {
@@ -700,15 +730,19 @@
 			files = (
 				1C8DC97422DDBA9E001FEDAA /* 2.jpeg in Resources */,
 				1C8DC97522DDBA9E001FEDAA /* 1.jpeg in Resources */,
+				DBD37EE92383D86A0008F403 /* CRM_pendVeto@3x.png in Resources */,
 				1C177CF722AF3B7100B0062B /* Main.storyboard in Resources */,
 				DBF0123D2313BCF500AB25F2 /* CRM_TargetIns_Structure@2x.png in Resources */,
+				DBD37EE82383D86A0008F403 /* CRM_pendPass@3x.png in Resources */,
 				1C177CF422AF3B7100B0062B /* Assets.xcassets in Resources */,
 				DBF012412313BD4100AB25F2 /* back@2x.png in Resources */,
 				DBF012422313BD4100AB25F2 /* back.png in Resources */,
+				DBD37EE62383D86A0008F403 /* CRM_pendPass@2x.png in Resources */,
 				DB7BEFF62373BB8700F0E1B3 /* 80.png in Resources */,
 				1CBB88ED22AF9CAC00E0A1AE /* mineBanner.png in Resources */,
 				DBF0123E2313BCF500AB25F2 /* CRM_TargetIns_Structure@3x.png in Resources */,
 				1C177CF622AF3B7100B0062B /* LaunchScreen.storyboard in Resources */,
+				DBD37EE72383D86A0008F403 /* CRM_pendVeto@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -818,6 +852,7 @@
 				DB0D7EE822E00F18006342D8 /* XSSliderGalleryMainVC.m in Sources */,
 				DBF0122C2313B1D000AB25F2 /* JYCalendarView.m in Sources */,
 				1C8DC96D22DDB919001FEDAA /* XSSpringVC.m in Sources */,
+				DBD37EDE2383D4A20008F403 /* XSKYClearClassVC.m in Sources */,
 				1C177D3A22AF3E0900B0062B /* UIView+Frame.m in Sources */,
 				1C8DC96222DDB83F001FEDAA /* XSMainCell.m in Sources */,
 				1C177CF522AF3B7100B0062B /* ViewController.m in Sources */,
@@ -825,6 +860,7 @@
 				DB0D7EEF22E0238D006342D8 /* JYGestureVerifyVC.m in Sources */,
 				1C177D3622AF3E0900B0062B /* PCLockLabel.m in Sources */,
 				1C177D3C22AF3E0900B0062B /* XSRequestManager.m in Sources */,
+				DBD37EE12383D4B30008F403 /* JYPendApprovalManagerView.m in Sources */,
 				1C177CF922AF3B7100B0062B /* AppDelegate.m in Sources */,
 				DBF012342313B7D700AB25F2 /* XSSideMenuMainVC.m in Sources */,
 				1CC6963222AF7A7500CD7022 /* XSTableHeaderBigVC.m in Sources */,
