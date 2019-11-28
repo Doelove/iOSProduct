@@ -34,8 +34,22 @@
         weakSelf.view2.y = 200;
     } completion:nil];
     
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    view.backgroundColor = [UIColor redColor];
+    [self.view addSubview:view];
+//
+    CABasicAnimation *animation=[CABasicAnimation animationWithKeyPath:@"transform.scale"];
+    animation.fromValue=[NSNumber numberWithFloat:0.5];
+    animation.toValue=[NSNumber numberWithFloat:1.0];
+    animation.duration=0.3;
+    animation.autoreverses=YES;
+    animation.repeatCount=0;
+    animation.removedOnCompletion=NO;
+    animation.fillMode=kCAFillModeForwards;
+    [view.layer addAnimation:animation forKey:@"zoom"];
+    
 }
-
 
 - (UIView *)view1{
     if (!_view1) {

@@ -9,7 +9,6 @@
 #import "XSCommon.h"
 
 @implementation XSCommon
-//http://192.168.0.131:8201/swagger-ui.html#/
 
 NSString *const baseUrl     = @"http://192.168.0.131:8201";
 

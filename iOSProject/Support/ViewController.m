@@ -20,7 +20,8 @@
 #import "XSAMapVC.h"
 #import "XSShareVC.h"
 #import "XSLocalNotiVC.h"
-#import "XSKYClearClassVC.h"
+#import "XSRunLoopTimerVC.h"
+#import "XSAsyncRequestVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -36,7 +37,7 @@
     
     self.title = @"iOS Project";
     [self.view addSubview:self.tableView];
-    self.dataList = @[@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播",@"uiwindow",@"cell左滑编辑",@"日历",@"侧边栏",@"地理编码",@"原生分享",@"本地通知",@"金耀清理class"];
+    self.dataList = @[@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播",@"uiwindow",@"cell左滑编辑",@"日历",@"侧边栏",@"地理编码",@"原生分享",@"本地通知",@"runloop导致timer暂停",@"同页面请求多个接口"];
 
 }
 
@@ -99,11 +100,14 @@
         XSLocalNotiVC *vc = [[XSLocalNotiVC alloc]init];
         [self pushVC:vc];
     }else if (indexPath.row == 13){
-        XSKYClearClassVC *vc = [[XSKYClearClassVC alloc]init];
+        XSRunLoopTimerVC *vc = [[XSRunLoopTimerVC alloc]init];
+        [self pushVC:vc];
+    }else if (indexPath.row == 14){
+        XSAsyncRequestVC *vc = [[XSAsyncRequestVC alloc]init];
         [self pushVC:vc];
     }
-    
 }
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;

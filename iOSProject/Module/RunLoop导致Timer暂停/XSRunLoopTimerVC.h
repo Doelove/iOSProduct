@@ -1,8 +1,8 @@
 //
-//  XSKYClearClassVC.h
+//  XSRunLoopTimerVC.h
 //  iOSProject
 //
-//  Created by 豆豆 on 2019/11/19.
+//  Created by 豆豆 on 2019/11/28.
 //  Copyright © 2019 软素. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface XSKYClearClassVC : XSBaseVC
+@interface XSRunLoopTimerVC : XSBaseVC
 
 @end
 

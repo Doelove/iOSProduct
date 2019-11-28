@@ -50,16 +50,13 @@
 		DB0D7EF022E0238D006342D8 /* JYGesturePasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EEE22E0238D006342D8 /* JYGesturePasswordVC.m */; };
 		DB0D7EF322E02540006342D8 /* PasswordInputWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EF222E02540006342D8 /* PasswordInputWindow.m */; };
 		DB1587B2236136EE000236F9 /* XSAMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1587B1236136EE000236F9 /* XSAMapVC.m */; };
+		DB4D0A6E238F5B5A00903E92 /* XSRunLoopTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4D0A6D238F5B5A00903E92 /* XSRunLoopTimerVC.m */; };
+		DB4D0A71238F5C3C00903E92 /* XSTimerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4D0A70238F5C3C00903E92 /* XSTimerCell.m */; };
+		DB4D0A76238FB73A00903E92 /* XSAsyncRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4D0A75238FB73A00903E92 /* XSAsyncRequestVC.m */; };
 		DB51EF00230111D600B64CAA /* XSCellEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51EEFF230111D600B64CAA /* XSCellEditVC.m */; };
 		DB7BEFF42373B7AD00F0E1B3 /* XSShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7BEFF32373B7AD00F0E1B3 /* XSShareVC.m */; };
 		DB7BEFF62373BB8700F0E1B3 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7BEFF52373BB8700F0E1B3 /* 80.png */; };
 		DB7BF03F2375604500F0E1B3 /* XSLocalNotiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */; };
-		DBD37EDE2383D4A20008F403 /* XSKYClearClassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD37EDD2383D4A20008F403 /* XSKYClearClassVC.m */; };
-		DBD37EE12383D4B30008F403 /* JYPendApprovalManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD37EE02383D4B30008F403 /* JYPendApprovalManagerView.m */; };
-		DBD37EE62383D86A0008F403 /* CRM_pendPass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD37EE22383D8690008F403 /* CRM_pendPass@2x.png */; };
-		DBD37EE72383D86A0008F403 /* CRM_pendVeto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD37EE32383D8690008F403 /* CRM_pendVeto@2x.png */; };
-		DBD37EE82383D86A0008F403 /* CRM_pendPass@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD37EE42383D86A0008F403 /* CRM_pendPass@3x.png */; };
-		DBD37EE92383D86A0008F403 /* CRM_pendVeto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD37EE52383D86A0008F403 /* CRM_pendVeto@3x.png */; };
 		DBF0122C2313B1D000AB25F2 /* JYCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012272313B1D000AB25F2 /* JYCalendarView.m */; };
 		DBF0122D2313B1D000AB25F2 /* NSDate+DaboExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */; };
 		DBF012302313B27C00AB25F2 /* XSCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF0122F2313B27C00AB25F2 /* XSCalendarVC.m */; };
@@ -176,6 +173,12 @@
 		DB0D7EF222E02540006342D8 /* PasswordInputWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordInputWindow.m; sourceTree = "<group>"; };
 		DB1587B0236136EE000236F9 /* XSAMapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSAMapVC.h; sourceTree = "<group>"; };
 		DB1587B1236136EE000236F9 /* XSAMapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSAMapVC.m; sourceTree = "<group>"; };
+		DB4D0A6C238F5B5A00903E92 /* XSRunLoopTimerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSRunLoopTimerVC.h; sourceTree = "<group>"; };
+		DB4D0A6D238F5B5A00903E92 /* XSRunLoopTimerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSRunLoopTimerVC.m; sourceTree = "<group>"; };
+		DB4D0A6F238F5C3C00903E92 /* XSTimerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSTimerCell.h; sourceTree = "<group>"; };
+		DB4D0A70238F5C3C00903E92 /* XSTimerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSTimerCell.m; sourceTree = "<group>"; };
+		DB4D0A74238FB73A00903E92 /* XSAsyncRequestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSAsyncRequestVC.h; sourceTree = "<group>"; };
+		DB4D0A75238FB73A00903E92 /* XSAsyncRequestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSAsyncRequestVC.m; sourceTree = "<group>"; };
 		DB51EEFE230111D600B64CAA /* XSCellEditVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCellEditVC.h; sourceTree = "<group>"; };
 		DB51EEFF230111D600B64CAA /* XSCellEditVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCellEditVC.m; sourceTree = "<group>"; };
 		DB7BEFF22373B7AD00F0E1B3 /* XSShareVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSShareVC.h; sourceTree = "<group>"; };
@@ -183,14 +186,6 @@
 		DB7BEFF52373BB8700F0E1B3 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
 		DB7BF03D2375604500F0E1B3 /* XSLocalNotiVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSLocalNotiVC.h; sourceTree = "<group>"; };
 		DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSLocalNotiVC.m; sourceTree = "<group>"; };
-		DBD37EDC2383D4A20008F403 /* XSKYClearClassVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSKYClearClassVC.h; sourceTree = "<group>"; };
-		DBD37EDD2383D4A20008F403 /* XSKYClearClassVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSKYClearClassVC.m; sourceTree = "<group>"; };
-		DBD37EDF2383D4B30008F403 /* JYPendApprovalManagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPendApprovalManagerView.h; sourceTree = "<group>"; };
-		DBD37EE02383D4B30008F403 /* JYPendApprovalManagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPendApprovalManagerView.m; sourceTree = "<group>"; };
-		DBD37EE22383D8690008F403 /* CRM_pendPass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRM_pendPass@2x.png"; sourceTree = "<group>"; };
-		DBD37EE32383D8690008F403 /* CRM_pendVeto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRM_pendVeto@2x.png"; sourceTree = "<group>"; };
-		DBD37EE42383D86A0008F403 /* CRM_pendPass@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRM_pendPass@3x.png"; sourceTree = "<group>"; };
-		DBD37EE52383D86A0008F403 /* CRM_pendVeto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRM_pendVeto@3x.png"; sourceTree = "<group>"; };
 		DBF012252313B1D000AB25F2 /* NSDate+DaboExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DaboExtension.h"; sourceTree = "<group>"; };
 		DBF012272313B1D000AB25F2 /* JYCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCalendarView.m; sourceTree = "<group>"; };
 		DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DaboExtension.m"; sourceTree = "<group>"; };
@@ -344,7 +339,8 @@
 		1C177D0722AF3E0000B0062B /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				DBD37EDB2383D4740008F403 /* KYClearClass */,
+				DB4D0A73238FB6EF00903E92 /* 请求多个接口 */,
+				DB4D0A6B238F5B3E00903E92 /* RunLoop导致Timer暂停 */,
 				DB7BF03C2375602C00F0E1B3 /* 本地通知 */,
 				DB7BEFF12373B78C00F0E1B3 /* 原生分享 */,
 				DB1587AF236136CD000236F9 /* 地理编码 */,
@@ -495,10 +491,6 @@
 		1CBB88EB22AF9CAC00E0A1AE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				DBD37EE22383D8690008F403 /* CRM_pendPass@2x.png */,
-				DBD37EE42383D86A0008F403 /* CRM_pendPass@3x.png */,
-				DBD37EE32383D8690008F403 /* CRM_pendVeto@2x.png */,
-				DBD37EE52383D86A0008F403 /* CRM_pendVeto@3x.png */,
 				DB7BEFF52373BB8700F0E1B3 /* 80.png */,
 				1CBB88EC22AF9CAC00E0A1AE /* mineBanner.png */,
 				1C8DC97322DDBA9E001FEDAA /* 1.jpeg */,
@@ -558,6 +550,26 @@
 			path = "地理编码";
 			sourceTree = "<group>";
 		};
+		DB4D0A6B238F5B3E00903E92 /* RunLoop导致Timer暂停 */ = {
+			isa = PBXGroup;
+			children = (
+				DB4D0A6C238F5B5A00903E92 /* XSRunLoopTimerVC.h */,
+				DB4D0A6D238F5B5A00903E92 /* XSRunLoopTimerVC.m */,
+				DB4D0A6F238F5C3C00903E92 /* XSTimerCell.h */,
+				DB4D0A70238F5C3C00903E92 /* XSTimerCell.m */,
+			);
+			path = "RunLoop导致Timer暂停";
+			sourceTree = "<group>";
+		};
+		DB4D0A73238FB6EF00903E92 /* 请求多个接口 */ = {
+			isa = PBXGroup;
+			children = (
+				DB4D0A74238FB73A00903E92 /* XSAsyncRequestVC.h */,
+				DB4D0A75238FB73A00903E92 /* XSAsyncRequestVC.m */,
+			);
+			path = "请求多个接口";
+			sourceTree = "<group>";
+		};
 		DB51EEFD230111B000B64CAA /* cell左滑编辑 */ = {
 			isa = PBXGroup;
 			children = (
@@ -583,17 +595,6 @@
 				DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */,
 			);
 			path = "本地通知";
-			sourceTree = "<group>";
-		};
-		DBD37EDB2383D4740008F403 /* KYClearClass */ = {
-			isa = PBXGroup;
-			children = (
-				DBD37EDC2383D4A20008F403 /* XSKYClearClassVC.h */,
-				DBD37EDD2383D4A20008F403 /* XSKYClearClassVC.m */,
-				DBD37EDF2383D4B30008F403 /* JYPendApprovalManagerView.h */,
-				DBD37EE02383D4B30008F403 /* JYPendApprovalManagerView.m */,
-			);
-			path = KYClearClass;
 			sourceTree = "<group>";
 		};
 		DBF012242313B1D000AB25F2 /* 日历 */ = {
@@ -730,19 +731,15 @@
 			files = (
 				1C8DC97422DDBA9E001FEDAA /* 2.jpeg in Resources */,
 				1C8DC97522DDBA9E001FEDAA /* 1.jpeg in Resources */,
-				DBD37EE92383D86A0008F403 /* CRM_pendVeto@3x.png in Resources */,
 				1C177CF722AF3B7100B0062B /* Main.storyboard in Resources */,
 				DBF0123D2313BCF500AB25F2 /* CRM_TargetIns_Structure@2x.png in Resources */,
-				DBD37EE82383D86A0008F403 /* CRM_pendPass@3x.png in Resources */,
 				1C177CF422AF3B7100B0062B /* Assets.xcassets in Resources */,
 				DBF012412313BD4100AB25F2 /* back@2x.png in Resources */,
 				DBF012422313BD4100AB25F2 /* back.png in Resources */,
-				DBD37EE62383D86A0008F403 /* CRM_pendPass@2x.png in Resources */,
 				DB7BEFF62373BB8700F0E1B3 /* 80.png in Resources */,
 				1CBB88ED22AF9CAC00E0A1AE /* mineBanner.png in Resources */,
 				DBF0123E2313BCF500AB25F2 /* CRM_TargetIns_Structure@3x.png in Resources */,
 				1C177CF622AF3B7100B0062B /* LaunchScreen.storyboard in Resources */,
-				DBD37EE72383D86A0008F403 /* CRM_pendVeto@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -830,10 +827,13 @@
 				1C0E27AE22C36FF700B0149E /* XSViderPlayerVC.m in Sources */,
 				1C177D3522AF3E0900B0062B /* PCCircleInfoView.m in Sources */,
 				1C8DC96922DDB911001FEDAA /* XSImageSubView.m in Sources */,
+				DB4D0A71238F5C3C00903E92 /* XSTimerCell.m in Sources */,
 				1C177D3322AF3E0900B0062B /* PCCircleView.m in Sources */,
+				DB4D0A6E238F5B5A00903E92 /* XSRunLoopTimerVC.m in Sources */,
 				1C177D0B22AF3E0000B0062B /* XSBaseModel.m in Sources */,
 				1C177D0822AF3E0000B0062B /* XSBaseVC.m in Sources */,
 				1C177D0A22AF3E0000B0062B /* XSMainTabBarC.m in Sources */,
+				DB4D0A76238FB73A00903E92 /* XSAsyncRequestVC.m in Sources */,
 				1C177D3822AF3E0900B0062B /* XSUserInfo.m in Sources */,
 				1C177D3222AF3E0900B0062B /* PCCircleViewConst.m in Sources */,
 				1C177D0922AF3E0000B0062B /* XSBaseTableCell.m in Sources */,
@@ -852,7 +852,6 @@
 				DB0D7EE822E00F18006342D8 /* XSSliderGalleryMainVC.m in Sources */,
 				DBF0122C2313B1D000AB25F2 /* JYCalendarView.m in Sources */,
 				1C8DC96D22DDB919001FEDAA /* XSSpringVC.m in Sources */,
-				DBD37EDE2383D4A20008F403 /* XSKYClearClassVC.m in Sources */,
 				1C177D3A22AF3E0900B0062B /* UIView+Frame.m in Sources */,
 				1C8DC96222DDB83F001FEDAA /* XSMainCell.m in Sources */,
 				1C177CF522AF3B7100B0062B /* ViewController.m in Sources */,
@@ -860,7 +859,6 @@
 				DB0D7EEF22E0238D006342D8 /* JYGestureVerifyVC.m in Sources */,
 				1C177D3622AF3E0900B0062B /* PCLockLabel.m in Sources */,
 				1C177D3C22AF3E0900B0062B /* XSRequestManager.m in Sources */,
-				DBD37EE12383D4B30008F403 /* JYPendApprovalManagerView.m in Sources */,
 				1C177CF922AF3B7100B0062B /* AppDelegate.m in Sources */,
 				DBF012342313B7D700AB25F2 /* XSSideMenuMainVC.m in Sources */,
 				1CC6963222AF7A7500CD7022 /* XSTableHeaderBigVC.m in Sources */,
