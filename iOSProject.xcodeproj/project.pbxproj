@@ -53,10 +53,16 @@
 		DB4D0A6E238F5B5A00903E92 /* XSRunLoopTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4D0A6D238F5B5A00903E92 /* XSRunLoopTimerVC.m */; };
 		DB4D0A71238F5C3C00903E92 /* XSTimerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4D0A70238F5C3C00903E92 /* XSTimerCell.m */; };
 		DB4D0A76238FB73A00903E92 /* XSAsyncRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4D0A75238FB73A00903E92 /* XSAsyncRequestVC.m */; };
+		DB4D0A7D2390C0D900903E92 /* XSCreatePDFVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4D0A7C2390C0D900903E92 /* XSCreatePDFVC.m */; };
 		DB51EF00230111D600B64CAA /* XSCellEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51EEFF230111D600B64CAA /* XSCellEditVC.m */; };
 		DB7BEFF42373B7AD00F0E1B3 /* XSShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7BEFF32373B7AD00F0E1B3 /* XSShareVC.m */; };
 		DB7BEFF62373BB8700F0E1B3 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7BEFF52373BB8700F0E1B3 /* 80.png */; };
 		DB7BF03F2375604500F0E1B3 /* XSLocalNotiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */; };
+		DB7F0FA02395FD8500FE0071 /* XSDrawPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7F0F9F2395FD8500FE0071 /* XSDrawPDFView.m */; };
+		DB7F0FA32396007000FE0071 /* XSShowPDFVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7F0FA22396007000FE0071 /* XSShowPDFVC.m */; };
+		DB847F4A23B0BF08005A60DA /* XSAnimationFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB847F4923B0BF08005A60DA /* XSAnimationFirstVC.m */; };
+		DB847F4D23B0C014005A60DA /* XSAnimationSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB847F4C23B0C014005A60DA /* XSAnimationSecondVC.m */; };
+		DB847F5023B0C034005A60DA /* UINavigationController+CATransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB847F4F23B0C034005A60DA /* UINavigationController+CATransition.m */; };
 		DBF0122C2313B1D000AB25F2 /* JYCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012272313B1D000AB25F2 /* JYCalendarView.m */; };
 		DBF0122D2313B1D000AB25F2 /* NSDate+DaboExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */; };
 		DBF012302313B27C00AB25F2 /* XSCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF0122F2313B27C00AB25F2 /* XSCalendarVC.m */; };
@@ -179,6 +185,8 @@
 		DB4D0A70238F5C3C00903E92 /* XSTimerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSTimerCell.m; sourceTree = "<group>"; };
 		DB4D0A74238FB73A00903E92 /* XSAsyncRequestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSAsyncRequestVC.h; sourceTree = "<group>"; };
 		DB4D0A75238FB73A00903E92 /* XSAsyncRequestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSAsyncRequestVC.m; sourceTree = "<group>"; };
+		DB4D0A7B2390C0D900903E92 /* XSCreatePDFVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCreatePDFVC.h; sourceTree = "<group>"; };
+		DB4D0A7C2390C0D900903E92 /* XSCreatePDFVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCreatePDFVC.m; sourceTree = "<group>"; };
 		DB51EEFE230111D600B64CAA /* XSCellEditVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCellEditVC.h; sourceTree = "<group>"; };
 		DB51EEFF230111D600B64CAA /* XSCellEditVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCellEditVC.m; sourceTree = "<group>"; };
 		DB7BEFF22373B7AD00F0E1B3 /* XSShareVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSShareVC.h; sourceTree = "<group>"; };
@@ -186,6 +194,16 @@
 		DB7BEFF52373BB8700F0E1B3 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
 		DB7BF03D2375604500F0E1B3 /* XSLocalNotiVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSLocalNotiVC.h; sourceTree = "<group>"; };
 		DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSLocalNotiVC.m; sourceTree = "<group>"; };
+		DB7F0F9E2395FD8500FE0071 /* XSDrawPDFView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSDrawPDFView.h; sourceTree = "<group>"; };
+		DB7F0F9F2395FD8500FE0071 /* XSDrawPDFView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSDrawPDFView.m; sourceTree = "<group>"; };
+		DB7F0FA12396007000FE0071 /* XSShowPDFVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSShowPDFVC.h; sourceTree = "<group>"; };
+		DB7F0FA22396007000FE0071 /* XSShowPDFVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSShowPDFVC.m; sourceTree = "<group>"; };
+		DB847F4823B0BF08005A60DA /* XSAnimationFirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSAnimationFirstVC.h; sourceTree = "<group>"; };
+		DB847F4923B0BF08005A60DA /* XSAnimationFirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSAnimationFirstVC.m; sourceTree = "<group>"; };
+		DB847F4B23B0C014005A60DA /* XSAnimationSecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSAnimationSecondVC.h; sourceTree = "<group>"; };
+		DB847F4C23B0C014005A60DA /* XSAnimationSecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSAnimationSecondVC.m; sourceTree = "<group>"; };
+		DB847F4E23B0C034005A60DA /* UINavigationController+CATransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CATransition.h"; sourceTree = "<group>"; };
+		DB847F4F23B0C034005A60DA /* UINavigationController+CATransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CATransition.m"; sourceTree = "<group>"; };
 		DBF012252313B1D000AB25F2 /* NSDate+DaboExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DaboExtension.h"; sourceTree = "<group>"; };
 		DBF012272313B1D000AB25F2 /* JYCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCalendarView.m; sourceTree = "<group>"; };
 		DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DaboExtension.m"; sourceTree = "<group>"; };
@@ -339,6 +357,8 @@
 		1C177D0722AF3E0000B0062B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				DB847F4723B0BE48005A60DA /* 转场动画 */,
+				DB4D0A7A2390C0BD00903E92 /* PDF生成 */,
 				DB4D0A73238FB6EF00903E92 /* 请求多个接口 */,
 				DB4D0A6B238F5B3E00903E92 /* RunLoop导致Timer暂停 */,
 				DB7BF03C2375602C00F0E1B3 /* 本地通知 */,
@@ -570,6 +590,19 @@
 			path = "请求多个接口";
 			sourceTree = "<group>";
 		};
+		DB4D0A7A2390C0BD00903E92 /* PDF生成 */ = {
+			isa = PBXGroup;
+			children = (
+				DB4D0A7B2390C0D900903E92 /* XSCreatePDFVC.h */,
+				DB4D0A7C2390C0D900903E92 /* XSCreatePDFVC.m */,
+				DB7F0FA12396007000FE0071 /* XSShowPDFVC.h */,
+				DB7F0FA22396007000FE0071 /* XSShowPDFVC.m */,
+				DB7F0F9E2395FD8500FE0071 /* XSDrawPDFView.h */,
+				DB7F0F9F2395FD8500FE0071 /* XSDrawPDFView.m */,
+			);
+			path = "PDF生成";
+			sourceTree = "<group>";
+		};
 		DB51EEFD230111B000B64CAA /* cell左滑编辑 */ = {
 			isa = PBXGroup;
 			children = (
@@ -595,6 +628,19 @@
 				DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */,
 			);
 			path = "本地通知";
+			sourceTree = "<group>";
+		};
+		DB847F4723B0BE48005A60DA /* 转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				DB847F4823B0BF08005A60DA /* XSAnimationFirstVC.h */,
+				DB847F4923B0BF08005A60DA /* XSAnimationFirstVC.m */,
+				DB847F4B23B0C014005A60DA /* XSAnimationSecondVC.h */,
+				DB847F4C23B0C014005A60DA /* XSAnimationSecondVC.m */,
+				DB847F4E23B0C034005A60DA /* UINavigationController+CATransition.h */,
+				DB847F4F23B0C034005A60DA /* UINavigationController+CATransition.m */,
+			);
+			path = "转场动画";
 			sourceTree = "<group>";
 		};
 		DBF012242313B1D000AB25F2 /* 日历 */ = {
@@ -824,13 +870,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBF012302313B27C00AB25F2 /* XSCalendarVC.m in Sources */,
+				DB847F4A23B0BF08005A60DA /* XSAnimationFirstVC.m in Sources */,
 				1C0E27AE22C36FF700B0149E /* XSViderPlayerVC.m in Sources */,
 				1C177D3522AF3E0900B0062B /* PCCircleInfoView.m in Sources */,
 				1C8DC96922DDB911001FEDAA /* XSImageSubView.m in Sources */,
 				DB4D0A71238F5C3C00903E92 /* XSTimerCell.m in Sources */,
 				1C177D3322AF3E0900B0062B /* PCCircleView.m in Sources */,
+				DB847F4D23B0C014005A60DA /* XSAnimationSecondVC.m in Sources */,
+				DB847F5023B0C034005A60DA /* UINavigationController+CATransition.m in Sources */,
 				DB4D0A6E238F5B5A00903E92 /* XSRunLoopTimerVC.m in Sources */,
 				1C177D0B22AF3E0000B0062B /* XSBaseModel.m in Sources */,
+				DB7F0FA02395FD8500FE0071 /* XSDrawPDFView.m in Sources */,
 				1C177D0822AF3E0000B0062B /* XSBaseVC.m in Sources */,
 				1C177D0A22AF3E0000B0062B /* XSMainTabBarC.m in Sources */,
 				DB4D0A76238FB73A00903E92 /* XSAsyncRequestVC.m in Sources */,
@@ -845,10 +895,12 @@
 				1CA1CE6F22B8C791006096FB /* XSSliderGalleryVC.m in Sources */,
 				DB0D7EF322E02540006342D8 /* PasswordInputWindow.m in Sources */,
 				DB1587B2236136EE000236F9 /* XSAMapVC.m in Sources */,
+				DB4D0A7D2390C0D900903E92 /* XSCreatePDFVC.m in Sources */,
 				DBF0122D2313B1D000AB25F2 /* NSDate+DaboExtension.m in Sources */,
 				1C8DC97122DDB921001FEDAA /* XSCornerShadowVC.m in Sources */,
 				DBF012372313B8FD00AB25F2 /* XSSideMenuHomeVC.m in Sources */,
 				1C177D3E22AF3E0900B0062B /* XSTool.m in Sources */,
+				DB7F0FA32396007000FE0071 /* XSShowPDFVC.m in Sources */,
 				DB0D7EE822E00F18006342D8 /* XSSliderGalleryMainVC.m in Sources */,
 				DBF0122C2313B1D000AB25F2 /* JYCalendarView.m in Sources */,
 				1C8DC96D22DDB919001FEDAA /* XSSpringVC.m in Sources */,
@@ -1040,9 +1092,9 @@
 			baseConfigurationReference = 31BE4B409223590A2EA370DF /* Pods-iOSProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = N35PG9729S;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSProject/Support/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/iOSProject/Support/Info.plist";
@@ -1051,9 +1103,9 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_CFLAGS = "-fembed-bitcode";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.iOSProject;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bizatmobile.biz4ky-uat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "biz4ky UAT App Distribution";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1063,9 +1115,9 @@
 			baseConfigurationReference = 8C1945AE0E74F98F72055CA6 /* Pods-iOSProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = N35PG9729S;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSProject/Support/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/iOSProject/Support/Info.plist";
@@ -1074,9 +1126,9 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_CFLAGS = "-fembed-bitcode";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.iOSProject;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bizatmobile.biz4ky-uat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "biz4ky UAT App Distribution";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
