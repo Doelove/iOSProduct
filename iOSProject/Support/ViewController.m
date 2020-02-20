@@ -24,6 +24,7 @@
 #import "XSAsyncRequestVC.h"
 #import "XSCreatePDFVC.h"
 #import "XSAnimationFirstVC.h"
+#import "XSCustomAnimationFirstVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -39,7 +40,7 @@
     
     self.title = @"iOS Project";
     [self.view addSubview:self.tableView];
-    self.dataList = @[@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播",@"uiwindow",@"cell左滑编辑",@"日历",@"侧边栏",@"地理编码",@"原生分享",@"本地通知",@"runloop导致timer暂停",@"同页面请求多个接口",@"创建pdf",@"转场动画"];
+    self.dataList = @[@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播",@"uiwindow",@"cell左滑编辑",@"日历",@"侧边栏",@"地理编码",@"原生分享",@"本地通知",@"runloop导致timer暂停",@"同页面请求多个接口",@"创建pdf",@"转场动画",@"自定义转场动画分析"];
 
 }
 
@@ -112,6 +113,10 @@
         [self pushVC:vc];
     }else if (indexPath.row == 16){
         XSAnimationFirstVC *vc = [[XSAnimationFirstVC alloc]init];
+        [self pushVC:vc];
+    }else if (indexPath.row == 17){
+        
+        XSCustomAnimationFirstVC *vc = [[XSCustomAnimationFirstVC alloc]init];
         [self pushVC:vc];
     }
 }

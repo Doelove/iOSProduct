@@ -63,6 +63,10 @@
 		DB847F4A23B0BF08005A60DA /* XSAnimationFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB847F4923B0BF08005A60DA /* XSAnimationFirstVC.m */; };
 		DB847F4D23B0C014005A60DA /* XSAnimationSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB847F4C23B0C014005A60DA /* XSAnimationSecondVC.m */; };
 		DB847F5023B0C034005A60DA /* UINavigationController+CATransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB847F4F23B0C034005A60DA /* UINavigationController+CATransition.m */; };
+		DB847F5323B1BF45005A60DA /* XSCustomAnimationFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB847F5223B1BF45005A60DA /* XSCustomAnimationFirstVC.m */; };
+		DB847F5623B1C015005A60DA /* XSCustomAnimationSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB847F5523B1C015005A60DA /* XSCustomAnimationSecondVC.m */; };
+		DB847F5923B1F9FC005A60DA /* XSCircleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB847F5823B1F9FC005A60DA /* XSCircleTransition.m */; };
+		DB847F6423B35824005A60DA /* Particles_fire.png in Resources */ = {isa = PBXBuildFile; fileRef = DB847F6323B35824005A60DA /* Particles_fire.png */; };
 		DBF0122C2313B1D000AB25F2 /* JYCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012272313B1D000AB25F2 /* JYCalendarView.m */; };
 		DBF0122D2313B1D000AB25F2 /* NSDate+DaboExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */; };
 		DBF012302313B27C00AB25F2 /* XSCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF0122F2313B27C00AB25F2 /* XSCalendarVC.m */; };
@@ -204,6 +208,13 @@
 		DB847F4C23B0C014005A60DA /* XSAnimationSecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSAnimationSecondVC.m; sourceTree = "<group>"; };
 		DB847F4E23B0C034005A60DA /* UINavigationController+CATransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CATransition.h"; sourceTree = "<group>"; };
 		DB847F4F23B0C034005A60DA /* UINavigationController+CATransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CATransition.m"; sourceTree = "<group>"; };
+		DB847F5123B1BF45005A60DA /* XSCustomAnimationFirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCustomAnimationFirstVC.h; sourceTree = "<group>"; };
+		DB847F5223B1BF45005A60DA /* XSCustomAnimationFirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCustomAnimationFirstVC.m; sourceTree = "<group>"; };
+		DB847F5423B1C014005A60DA /* XSCustomAnimationSecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCustomAnimationSecondVC.h; sourceTree = "<group>"; };
+		DB847F5523B1C015005A60DA /* XSCustomAnimationSecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCustomAnimationSecondVC.m; sourceTree = "<group>"; };
+		DB847F5723B1F9FC005A60DA /* XSCircleTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCircleTransition.h; sourceTree = "<group>"; };
+		DB847F5823B1F9FC005A60DA /* XSCircleTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCircleTransition.m; sourceTree = "<group>"; };
+		DB847F6323B35824005A60DA /* Particles_fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particles_fire.png; sourceTree = "<group>"; };
 		DBF012252313B1D000AB25F2 /* NSDate+DaboExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DaboExtension.h"; sourceTree = "<group>"; };
 		DBF012272313B1D000AB25F2 /* JYCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCalendarView.m; sourceTree = "<group>"; };
 		DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DaboExtension.m"; sourceTree = "<group>"; };
@@ -511,6 +522,7 @@
 		1CBB88EB22AF9CAC00E0A1AE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				DB847F6323B35824005A60DA /* Particles_fire.png */,
 				DB7BEFF52373BB8700F0E1B3 /* 80.png */,
 				1CBB88EC22AF9CAC00E0A1AE /* mineBanner.png */,
 				1C8DC97322DDBA9E001FEDAA /* 1.jpeg */,
@@ -639,6 +651,12 @@
 				DB847F4C23B0C014005A60DA /* XSAnimationSecondVC.m */,
 				DB847F4E23B0C034005A60DA /* UINavigationController+CATransition.h */,
 				DB847F4F23B0C034005A60DA /* UINavigationController+CATransition.m */,
+				DB847F5123B1BF45005A60DA /* XSCustomAnimationFirstVC.h */,
+				DB847F5223B1BF45005A60DA /* XSCustomAnimationFirstVC.m */,
+				DB847F5423B1C014005A60DA /* XSCustomAnimationSecondVC.h */,
+				DB847F5523B1C015005A60DA /* XSCustomAnimationSecondVC.m */,
+				DB847F5723B1F9FC005A60DA /* XSCircleTransition.h */,
+				DB847F5823B1F9FC005A60DA /* XSCircleTransition.m */,
 			);
 			path = "转场动画";
 			sourceTree = "<group>";
@@ -780,6 +798,7 @@
 				1C177CF722AF3B7100B0062B /* Main.storyboard in Resources */,
 				DBF0123D2313BCF500AB25F2 /* CRM_TargetIns_Structure@2x.png in Resources */,
 				1C177CF422AF3B7100B0062B /* Assets.xcassets in Resources */,
+				DB847F6423B35824005A60DA /* Particles_fire.png in Resources */,
 				DBF012412313BD4100AB25F2 /* back@2x.png in Resources */,
 				DBF012422313BD4100AB25F2 /* back.png in Resources */,
 				DB7BEFF62373BB8700F0E1B3 /* 80.png in Resources */,
@@ -874,6 +893,7 @@
 				1C0E27AE22C36FF700B0149E /* XSViderPlayerVC.m in Sources */,
 				1C177D3522AF3E0900B0062B /* PCCircleInfoView.m in Sources */,
 				1C8DC96922DDB911001FEDAA /* XSImageSubView.m in Sources */,
+				DB847F5623B1C015005A60DA /* XSCustomAnimationSecondVC.m in Sources */,
 				DB4D0A71238F5C3C00903E92 /* XSTimerCell.m in Sources */,
 				1C177D3322AF3E0900B0062B /* PCCircleView.m in Sources */,
 				DB847F4D23B0C014005A60DA /* XSAnimationSecondVC.m in Sources */,
@@ -882,6 +902,7 @@
 				1C177D0B22AF3E0000B0062B /* XSBaseModel.m in Sources */,
 				DB7F0FA02395FD8500FE0071 /* XSDrawPDFView.m in Sources */,
 				1C177D0822AF3E0000B0062B /* XSBaseVC.m in Sources */,
+				DB847F5323B1BF45005A60DA /* XSCustomAnimationFirstVC.m in Sources */,
 				1C177D0A22AF3E0000B0062B /* XSMainTabBarC.m in Sources */,
 				DB4D0A76238FB73A00903E92 /* XSAsyncRequestVC.m in Sources */,
 				1C177D3822AF3E0900B0062B /* XSUserInfo.m in Sources */,
@@ -908,6 +929,7 @@
 				1C8DC96222DDB83F001FEDAA /* XSMainCell.m in Sources */,
 				1C177CF522AF3B7100B0062B /* ViewController.m in Sources */,
 				1C177D3B22AF3E0900B0062B /* XSUserDefaultTool.m in Sources */,
+				DB847F5923B1F9FC005A60DA /* XSCircleTransition.m in Sources */,
 				DB0D7EEF22E0238D006342D8 /* JYGestureVerifyVC.m in Sources */,
 				1C177D3622AF3E0900B0062B /* PCLockLabel.m in Sources */,
 				1C177D3C22AF3E0900B0062B /* XSRequestManager.m in Sources */,
