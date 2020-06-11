@@ -16,7 +16,7 @@ NSString *const hBaseUrl    = @"";
 
 NSString *const JPushID     = @"";
 
-NSString *const AMapID      = @"064afa55f0ea435df2fb2f23eac5190d";
+NSString *const AMapID      = @"dadf98e77dc0652411f0e0df7fd513e6";
 
 
 

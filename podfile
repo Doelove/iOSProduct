@@ -7,6 +7,8 @@ target 'iOSProject' do
 pod 'AMap3DMap'
 pod 'AMapLocation'
 pod 'AMapSearch'
+pod 'AMapNavi'
+
 pod 'Masonry'
 
 pod 'WCDB'

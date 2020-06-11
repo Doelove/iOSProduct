@@ -55,6 +55,7 @@
 		DB4D0A76238FB73A00903E92 /* XSAsyncRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4D0A75238FB73A00903E92 /* XSAsyncRequestVC.m */; };
 		DB4D0A7D2390C0D900903E92 /* XSCreatePDFVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4D0A7C2390C0D900903E92 /* XSCreatePDFVC.m */; };
 		DB51EF00230111D600B64CAA /* XSCellEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51EEFF230111D600B64CAA /* XSCellEditVC.m */; };
+		DB5E4E282491CDA3008D8ECE /* XSCyclingNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5E4E272491CDA3008D8ECE /* XSCyclingNavigationVC.m */; };
 		DB6945DF240BBDC500005AF4 /* 指南针.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6945DE240BBDC500005AF4 /* 指南针.png */; };
 		DB6945E3240BBE0200005AF4 /* XSCompassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6945E2240BBE0200005AF4 /* XSCompassVC.m */; };
 		DB7BEFF42373B7AD00F0E1B3 /* XSShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7BEFF32373B7AD00F0E1B3 /* XSShareVC.m */; };
@@ -199,6 +200,8 @@
 		DB4D0A7C2390C0D900903E92 /* XSCreatePDFVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCreatePDFVC.m; sourceTree = "<group>"; };
 		DB51EEFE230111D600B64CAA /* XSCellEditVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCellEditVC.h; sourceTree = "<group>"; };
 		DB51EEFF230111D600B64CAA /* XSCellEditVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCellEditVC.m; sourceTree = "<group>"; };
+		DB5E4E262491CDA3008D8ECE /* XSCyclingNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCyclingNavigationVC.h; sourceTree = "<group>"; };
+		DB5E4E272491CDA3008D8ECE /* XSCyclingNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCyclingNavigationVC.m; sourceTree = "<group>"; };
 		DB6945DE240BBDC500005AF4 /* 指南针.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "指南针.png"; sourceTree = "<group>"; };
 		DB6945E1240BBE0200005AF4 /* XSCompassVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCompassVC.h; sourceTree = "<group>"; };
 		DB6945E2240BBE0200005AF4 /* XSCompassVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCompassVC.m; sourceTree = "<group>"; };
@@ -384,6 +387,7 @@
 		1C177D0722AF3E0000B0062B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				DB5E4E252491CD5D008D8ECE /* 骑行导航 */,
 				DBC6A988242D99E200581A88 /* GPUImage */,
 				DBB0BF1E241E1341009EC9D4 /* 原生定位 */,
 				DB6945E0240BBDE100005AF4 /* 指南针 */,
@@ -642,6 +646,15 @@
 				DB51EEFF230111D600B64CAA /* XSCellEditVC.m */,
 			);
 			path = "cell左滑编辑";
+			sourceTree = "<group>";
+		};
+		DB5E4E252491CD5D008D8ECE /* 骑行导航 */ = {
+			isa = PBXGroup;
+			children = (
+				DB5E4E262491CDA3008D8ECE /* XSCyclingNavigationVC.h */,
+				DB5E4E272491CDA3008D8ECE /* XSCyclingNavigationVC.m */,
+			);
+			path = "骑行导航";
 			sourceTree = "<group>";
 		};
 		DB6945E0240BBDE100005AF4 /* 指南针 */ = {
@@ -975,6 +988,7 @@
 				1C177D0A22AF3E0000B0062B /* XSMainTabBarC.m in Sources */,
 				DB4D0A76238FB73A00903E92 /* XSAsyncRequestVC.m in Sources */,
 				1C177D3822AF3E0900B0062B /* XSUserInfo.m in Sources */,
+				DB5E4E282491CDA3008D8ECE /* XSCyclingNavigationVC.m in Sources */,
 				1C177D3222AF3E0900B0062B /* PCCircleViewConst.m in Sources */,
 				DBC6A98C242D99F800581A88 /* XSGPUImageTest01.m in Sources */,
 				1C177D0922AF3E0000B0062B /* XSBaseTableCell.m in Sources */,

@@ -30,12 +30,24 @@
 
     self.mgr.delegate = self;
     
-    [self.mgr startUpdatingHeading];
+    if ([CLLocationManager headingAvailable]) {
+        //精度
+        self.mgr.desiredAccuracy = kCLLocationAccuracyBest;
+        self.mgr.distanceFilter = 0;
+        self.mgr.headingFilter = kCLHeadingFilterNone;
+        [self.mgr startUpdatingHeading];
+        
+    }
+    
+    [self.mgr requestWhenInUseAuthorization];
 
 
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateHeading:(CLHeading *)newHeading{
+    
+    
+    self.compassPointer.transform = CGAffineTransformIdentity;
     
     CGFloat angle = newHeading.magneticHeading*M_PI/180;
     
