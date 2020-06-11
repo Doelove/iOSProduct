@@ -7,29 +7,15 @@
 //
 
 #import "ViewController.h"
-#import "XSTableHeaderBigVC.h"
-#import "XSImagePinchPan.h"
-#import "XSCornerShadowVC.h"
-#import "XSSpringVC.h"
-#import "XSViderPlayerVC.h"
-#import "XSSliderGalleryMainVC.h"
 #import "XSMainCell.h"
-#import "XSCellEditVC.h"
-#import "XSCalendarVC.h"
 #import "XSSideMenuMainVC.h"
-#import "XSAMapVC.h"
-#import "XSShareVC.h"
-#import "XSLocalNotiVC.h"
-#import "XSRunLoopTimerVC.h"
-#import "XSAsyncRequestVC.h"
-#import "XSCreatePDFVC.h"
-#import "XSAnimationFirstVC.h"
-#import "XSCustomAnimationFirstVC.h"
+
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)NSArray *dataList;
+@property(nonatomic,strong)NSArray *nameList;
 
 @end
 
@@ -40,7 +26,8 @@
     
     self.title = @"iOS Project";
     [self.view addSubview:self.tableView];
-    self.dataList = @[@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播",@"uiwindow",@"cell左滑编辑",@"日历",@"侧边栏",@"地理编码",@"原生分享",@"本地通知",@"runloop导致timer暂停",@"同页面请求多个接口",@"创建pdf",@"转场动画",@"自定义转场动画分析"];
+    self.dataList = @[@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播",@"uiwindow",@"cell左滑编辑",@"日历",@"侧边栏",@"地理编码",@"原生分享",@"本地通知",@"runloop导致timer暂停",@"同页面请求多个接口",@"创建pdf",@"转场动画",@"自定义转场动画分析",@"指南针",@"原生定位",@"XSGPUImageTest01",@"XSGPUImageTest02棕色滤镜"];
+    self.nameList = @[@"XSTableHeaderBigVC",@"XSImagePinchPan",@"XSCornerShadowVC",@"XSSpringVC",@"XSViderPlayerVC",@"XSSliderGalleryMainVC",@"",@"XSCellEditVC",@"XSCalendarVC",@"",@"XSAMapVC",@"XSShareVC",@"XSLocalNotiVC",@"XSRunLoopTimerVC",@"XSAsyncRequestVC",@"XSCreatePDFVC",@"XSAnimationFirstVC",@"XSCustomAnimationFirstVC",@"XSCompassVC",@"XSLocationVC",@"XSGPUImageTest01",@"XSGPUImageTest02"];
 
 }
 
@@ -58,69 +45,24 @@
 
 #pragma mark -- tableView 代理
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-    return [self setCellTitle:self.dataList[indexPath.row] indexPath:indexPath];
+    JYWeakSelf
+    return [self setCellTitle:self.dataList[indexPath.row] indexPath:indexPath block:^{
+        [weakSelf createVCOfName:weakSelf.nameList[indexPath.row] index:indexPath.row];
+    }];
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
-    if (indexPath.row == 0) {
-        XSTableHeaderBigVC *vc = [[XSTableHeaderBigVC alloc]init];
-        [self pushVC:vc];
-    }else if(indexPath.row == 1){
-        XSImagePinchPan *vc = [[XSImagePinchPan alloc]init];
-        [self pushVC:vc];
-    }else if(indexPath.row == 2){
-        XSCornerShadowVC *vc = [[XSCornerShadowVC alloc]init];
-        [self pushVC:vc];
-    }else if(indexPath.row == 3){
-        XSSpringVC *vc = [[XSSpringVC alloc]init];
-        [self pushVC:vc];
-    }else if(indexPath.row == 4){
-        XSViderPlayerVC *vc = [[XSViderPlayerVC alloc]init];
-        [self pushVC:vc];
-    }else if(indexPath.row == 5){
-        XSSliderGalleryMainVC *vc = [[XSSliderGalleryMainVC alloc]init];
-        [self pushVC:vc];
-    }else if (indexPath.row == 7){
-        XSCellEditVC *vc = [[XSCellEditVC alloc]init];
-        [self pushVC:vc];
-    }else if (indexPath.row == 8){
-        XSCalendarVC *vc = [[XSCalendarVC alloc]init];
-        [self pushVC:vc];
-    }else if (indexPath.row == 9){
+- (void)createVCOfName:(NSString *)vcName index:(NSInteger)index{
+    if (index == 9) {
         XSSideMenuHomeVC *homeVC = [[XSSideMenuHomeVC alloc]init];
         XSSideMenuRightVC *rightVC = [[XSSideMenuRightVC alloc]init];
         XSSideMenuMainVC *vc = [XSSideMenuMainVC createMainVCWithHomeVC:homeVC rightVC:rightVC];
         [self pushVC:vc];
-    }else if (indexPath.row == 10){
-        XSAMapVC *vc = [[XSAMapVC alloc]init];
-        [self pushVC:vc];
-    }else if (indexPath.row == 11){
-        XSShareVC *vc = [[XSShareVC alloc]init];
-        [self pushVC:vc];
-    }else if (indexPath.row == 12){
-        XSLocalNotiVC *vc = [[XSLocalNotiVC alloc]init];
-        [self pushVC:vc];
-    }else if (indexPath.row == 13){
-        XSRunLoopTimerVC *vc = [[XSRunLoopTimerVC alloc]init];
-        [self pushVC:vc];
-    }else if (indexPath.row == 14){
-        XSAsyncRequestVC *vc = [[XSAsyncRequestVC alloc]init];
-        [self pushVC:vc];
-    }else if (indexPath.row == 15){
-        XSCreatePDFVC *vc = [[XSCreatePDFVC alloc]init];
-        [self pushVC:vc];
-    }else if (indexPath.row == 16){
-        XSAnimationFirstVC *vc = [[XSAnimationFirstVC alloc]init];
-        [self pushVC:vc];
-    }else if (indexPath.row == 17){
-        
-        XSCustomAnimationFirstVC *vc = [[XSCustomAnimationFirstVC alloc]init];
+    }else{
+        UIViewController *vc = [[NSClassFromString(vcName) alloc]init];
         [self pushVC:vc];
     }
 }
-
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
@@ -130,9 +72,10 @@
     return self.dataList.count;
 }
 
-- (XSMainCell *)setCellTitle:(NSString *)title indexPath:(NSIndexPath *)indexPath{
+- (XSMainCell *)setCellTitle:(NSString *)title indexPath:(NSIndexPath *)indexPath block:(SelectBlock)block{
     XSMainCell *cell = [self.tableView dequeueReusableCellWithIdentifier:XSMainCellID forIndexPath:indexPath];
     cell.title = title;
+    cell.block = block;
     return cell;
 }
 

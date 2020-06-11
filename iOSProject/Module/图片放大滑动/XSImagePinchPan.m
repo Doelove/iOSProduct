@@ -7,9 +7,6 @@
 //
 
 #import "XSImagePinchPan.h"
-//#import <SDWebImage/UIImageView+WebCache.h>
-//#import "LZImageBrowserManger.h"
-//#import "LZImageBrowserHeader.h"
 #import "XSImageSubView.h"
 
 @interface XSImagePinchPan ()<UIScrollViewDelegate,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>

@@ -21,6 +21,7 @@ PODS:
     - AMapFoundation (~> 1.4)
   - AMapSearch (6.9.0):
     - AMapFoundation (~> 1.4)
+  - GPUImage (0.1.7)
   - Masonry (1.1.0)
   - MJRefresh (3.2.0)
   - MMLayout (0.2.0)
@@ -87,6 +88,7 @@ DEPENDENCIES:
   - AMap3DMap
   - AMapLocation
   - AMapSearch
+  - GPUImage
   - Masonry
   - MJRefresh
   - Reachability
@@ -108,6 +110,7 @@ SPEC REPOS:
     - AMapFoundation
     - AMapLocation
     - AMapSearch
+    - GPUImage
     - Masonry
     - MJRefresh
     - MMLayout
@@ -133,6 +136,7 @@ SPEC CHECKSUMS:
   AMapFoundation: 20fce2a12cd152e1092afdd04379cdac21932185
   AMapLocation: 89a7e4eb6040d32ba73c77a4966ecc66e46aa7c3
   AMapSearch: af02822537e55b85a4752e9df5c19e4b9da82031
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   MMLayout: 3fb59d58eeb8656c64e61d550fb0088e10666c11
@@ -152,6 +156,6 @@ SPEC CHECKSUMS:
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
   ZFPlayer: fdc92702cc611922182a951991dea78566da7605
 
-PODFILE CHECKSUM: ca884f0d0c7159245e9339fad4d4fb8e0271f40b
+PODFILE CHECKSUM: 81b82945a06ae220f3e3d6e8401350524af31962
 
 COCOAPODS: 1.7.3

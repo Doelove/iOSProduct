@@ -15,6 +15,7 @@ static NSString *const XSMainCellID = @"XSMainCell";
 @interface XSMainCell : XSBaseTableCell
 
 @property(nonatomic,copy)NSString *title;
+@property(nonatomic,strong)SelectBlock block;
 
 @end
 

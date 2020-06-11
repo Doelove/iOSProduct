@@ -55,6 +55,8 @@
 		DB4D0A76238FB73A00903E92 /* XSAsyncRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4D0A75238FB73A00903E92 /* XSAsyncRequestVC.m */; };
 		DB4D0A7D2390C0D900903E92 /* XSCreatePDFVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4D0A7C2390C0D900903E92 /* XSCreatePDFVC.m */; };
 		DB51EF00230111D600B64CAA /* XSCellEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51EEFF230111D600B64CAA /* XSCellEditVC.m */; };
+		DB6945DF240BBDC500005AF4 /* 指南针.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6945DE240BBDC500005AF4 /* 指南针.png */; };
+		DB6945E3240BBE0200005AF4 /* XSCompassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6945E2240BBE0200005AF4 /* XSCompassVC.m */; };
 		DB7BEFF42373B7AD00F0E1B3 /* XSShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7BEFF32373B7AD00F0E1B3 /* XSShareVC.m */; };
 		DB7BEFF62373BB8700F0E1B3 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7BEFF52373BB8700F0E1B3 /* 80.png */; };
 		DB7BF03F2375604500F0E1B3 /* XSLocalNotiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */; };
@@ -67,6 +69,10 @@
 		DB847F5623B1C015005A60DA /* XSCustomAnimationSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB847F5523B1C015005A60DA /* XSCustomAnimationSecondVC.m */; };
 		DB847F5923B1F9FC005A60DA /* XSCircleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB847F5823B1F9FC005A60DA /* XSCircleTransition.m */; };
 		DB847F6423B35824005A60DA /* Particles_fire.png in Resources */ = {isa = PBXBuildFile; fileRef = DB847F6323B35824005A60DA /* Particles_fire.png */; };
+		DBB0BF21241E137C009EC9D4 /* XSLocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB0BF20241E137C009EC9D4 /* XSLocationVC.m */; };
+		DBC6A98C242D99F800581A88 /* XSGPUImageTest01.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC6A98B242D99F800581A88 /* XSGPUImageTest01.m */; };
+		DBC6A990242DEADB00581A88 /* XSGPUImageTest02.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC6A98F242DEADB00581A88 /* XSGPUImageTest02.m */; };
+		DBC6A992242DEAED00581A88 /* XSGPUImageTest02.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC6A991242DEAED00581A88 /* XSGPUImageTest02.storyboard */; };
 		DBF0122C2313B1D000AB25F2 /* JYCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012272313B1D000AB25F2 /* JYCalendarView.m */; };
 		DBF0122D2313B1D000AB25F2 /* NSDate+DaboExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */; };
 		DBF012302313B27C00AB25F2 /* XSCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF0122F2313B27C00AB25F2 /* XSCalendarVC.m */; };
@@ -193,6 +199,9 @@
 		DB4D0A7C2390C0D900903E92 /* XSCreatePDFVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCreatePDFVC.m; sourceTree = "<group>"; };
 		DB51EEFE230111D600B64CAA /* XSCellEditVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCellEditVC.h; sourceTree = "<group>"; };
 		DB51EEFF230111D600B64CAA /* XSCellEditVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCellEditVC.m; sourceTree = "<group>"; };
+		DB6945DE240BBDC500005AF4 /* 指南针.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "指南针.png"; sourceTree = "<group>"; };
+		DB6945E1240BBE0200005AF4 /* XSCompassVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCompassVC.h; sourceTree = "<group>"; };
+		DB6945E2240BBE0200005AF4 /* XSCompassVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCompassVC.m; sourceTree = "<group>"; };
 		DB7BEFF22373B7AD00F0E1B3 /* XSShareVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSShareVC.h; sourceTree = "<group>"; };
 		DB7BEFF32373B7AD00F0E1B3 /* XSShareVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSShareVC.m; sourceTree = "<group>"; };
 		DB7BEFF52373BB8700F0E1B3 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
@@ -215,6 +224,13 @@
 		DB847F5723B1F9FC005A60DA /* XSCircleTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCircleTransition.h; sourceTree = "<group>"; };
 		DB847F5823B1F9FC005A60DA /* XSCircleTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCircleTransition.m; sourceTree = "<group>"; };
 		DB847F6323B35824005A60DA /* Particles_fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particles_fire.png; sourceTree = "<group>"; };
+		DBB0BF1F241E137C009EC9D4 /* XSLocationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSLocationVC.h; sourceTree = "<group>"; };
+		DBB0BF20241E137C009EC9D4 /* XSLocationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSLocationVC.m; sourceTree = "<group>"; };
+		DBC6A98A242D99F800581A88 /* XSGPUImageTest01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSGPUImageTest01.h; sourceTree = "<group>"; };
+		DBC6A98B242D99F800581A88 /* XSGPUImageTest01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSGPUImageTest01.m; sourceTree = "<group>"; };
+		DBC6A98E242DEADB00581A88 /* XSGPUImageTest02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSGPUImageTest02.h; sourceTree = "<group>"; };
+		DBC6A98F242DEADB00581A88 /* XSGPUImageTest02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSGPUImageTest02.m; sourceTree = "<group>"; };
+		DBC6A991242DEAED00581A88 /* XSGPUImageTest02.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = XSGPUImageTest02.storyboard; sourceTree = "<group>"; };
 		DBF012252313B1D000AB25F2 /* NSDate+DaboExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DaboExtension.h"; sourceTree = "<group>"; };
 		DBF012272313B1D000AB25F2 /* JYCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCalendarView.m; sourceTree = "<group>"; };
 		DBF012292313B1D000AB25F2 /* NSDate+DaboExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DaboExtension.m"; sourceTree = "<group>"; };
@@ -368,6 +384,9 @@
 		1C177D0722AF3E0000B0062B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				DBC6A988242D99E200581A88 /* GPUImage */,
+				DBB0BF1E241E1341009EC9D4 /* 原生定位 */,
+				DB6945E0240BBDE100005AF4 /* 指南针 */,
 				DB847F4723B0BE48005A60DA /* 转场动画 */,
 				DB4D0A7A2390C0BD00903E92 /* PDF生成 */,
 				DB4D0A73238FB6EF00903E92 /* 请求多个接口 */,
@@ -522,6 +541,7 @@
 		1CBB88EB22AF9CAC00E0A1AE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				DB6945DE240BBDC500005AF4 /* 指南针.png */,
 				DB847F6323B35824005A60DA /* Particles_fire.png */,
 				DB7BEFF52373BB8700F0E1B3 /* 80.png */,
 				1CBB88EC22AF9CAC00E0A1AE /* mineBanner.png */,
@@ -624,6 +644,15 @@
 			path = "cell左滑编辑";
 			sourceTree = "<group>";
 		};
+		DB6945E0240BBDE100005AF4 /* 指南针 */ = {
+			isa = PBXGroup;
+			children = (
+				DB6945E1240BBE0200005AF4 /* XSCompassVC.h */,
+				DB6945E2240BBE0200005AF4 /* XSCompassVC.m */,
+			);
+			path = "指南针";
+			sourceTree = "<group>";
+		};
 		DB7BEFF12373B78C00F0E1B3 /* 原生分享 */ = {
 			isa = PBXGroup;
 			children = (
@@ -659,6 +688,43 @@
 				DB847F5823B1F9FC005A60DA /* XSCircleTransition.m */,
 			);
 			path = "转场动画";
+			sourceTree = "<group>";
+		};
+		DBB0BF1E241E1341009EC9D4 /* 原生定位 */ = {
+			isa = PBXGroup;
+			children = (
+				DBB0BF1F241E137C009EC9D4 /* XSLocationVC.h */,
+				DBB0BF20241E137C009EC9D4 /* XSLocationVC.m */,
+			);
+			path = "原生定位";
+			sourceTree = "<group>";
+		};
+		DBC6A988242D99E200581A88 /* GPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				DBC6A989242D99E200581A88 /* test01 */,
+				DBC6A98D242DEAC200581A88 /* test02 */,
+			);
+			path = GPUImage;
+			sourceTree = "<group>";
+		};
+		DBC6A989242D99E200581A88 /* test01 */ = {
+			isa = PBXGroup;
+			children = (
+				DBC6A98A242D99F800581A88 /* XSGPUImageTest01.h */,
+				DBC6A98B242D99F800581A88 /* XSGPUImageTest01.m */,
+			);
+			path = test01;
+			sourceTree = "<group>";
+		};
+		DBC6A98D242DEAC200581A88 /* test02 */ = {
+			isa = PBXGroup;
+			children = (
+				DBC6A98E242DEADB00581A88 /* XSGPUImageTest02.h */,
+				DBC6A98F242DEADB00581A88 /* XSGPUImageTest02.m */,
+				DBC6A991242DEAED00581A88 /* XSGPUImageTest02.storyboard */,
+			);
+			path = test02;
 			sourceTree = "<group>";
 		};
 		DBF012242313B1D000AB25F2 /* 日历 */ = {
@@ -800,8 +866,10 @@
 				1C177CF422AF3B7100B0062B /* Assets.xcassets in Resources */,
 				DB847F6423B35824005A60DA /* Particles_fire.png in Resources */,
 				DBF012412313BD4100AB25F2 /* back@2x.png in Resources */,
+				DB6945DF240BBDC500005AF4 /* 指南针.png in Resources */,
 				DBF012422313BD4100AB25F2 /* back.png in Resources */,
 				DB7BEFF62373BB8700F0E1B3 /* 80.png in Resources */,
+				DBC6A992242DEAED00581A88 /* XSGPUImageTest02.storyboard in Resources */,
 				1CBB88ED22AF9CAC00E0A1AE /* mineBanner.png in Resources */,
 				DBF0123E2313BCF500AB25F2 /* CRM_TargetIns_Structure@3x.png in Resources */,
 				1C177CF622AF3B7100B0062B /* LaunchScreen.storyboard in Resources */,
@@ -898,6 +966,7 @@
 				1C177D3322AF3E0900B0062B /* PCCircleView.m in Sources */,
 				DB847F4D23B0C014005A60DA /* XSAnimationSecondVC.m in Sources */,
 				DB847F5023B0C034005A60DA /* UINavigationController+CATransition.m in Sources */,
+				DB6945E3240BBE0200005AF4 /* XSCompassVC.m in Sources */,
 				DB4D0A6E238F5B5A00903E92 /* XSRunLoopTimerVC.m in Sources */,
 				1C177D0B22AF3E0000B0062B /* XSBaseModel.m in Sources */,
 				DB7F0FA02395FD8500FE0071 /* XSDrawPDFView.m in Sources */,
@@ -907,6 +976,7 @@
 				DB4D0A76238FB73A00903E92 /* XSAsyncRequestVC.m in Sources */,
 				1C177D3822AF3E0900B0062B /* XSUserInfo.m in Sources */,
 				1C177D3222AF3E0900B0062B /* PCCircleViewConst.m in Sources */,
+				DBC6A98C242D99F800581A88 /* XSGPUImageTest01.m in Sources */,
 				1C177D0922AF3E0000B0062B /* XSBaseTableCell.m in Sources */,
 				1C177D3422AF3E0900B0062B /* CALayer+Anim.m in Sources */,
 				DB7BF03F2375604500F0E1B3 /* XSLocalNotiVC.m in Sources */,
@@ -916,6 +986,7 @@
 				1CA1CE6F22B8C791006096FB /* XSSliderGalleryVC.m in Sources */,
 				DB0D7EF322E02540006342D8 /* PasswordInputWindow.m in Sources */,
 				DB1587B2236136EE000236F9 /* XSAMapVC.m in Sources */,
+				DBC6A990242DEADB00581A88 /* XSGPUImageTest02.m in Sources */,
 				DB4D0A7D2390C0D900903E92 /* XSCreatePDFVC.m in Sources */,
 				DBF0122D2313B1D000AB25F2 /* NSDate+DaboExtension.m in Sources */,
 				1C8DC97122DDB921001FEDAA /* XSCornerShadowVC.m in Sources */,
@@ -930,6 +1001,7 @@
 				1C177CF522AF3B7100B0062B /* ViewController.m in Sources */,
 				1C177D3B22AF3E0900B0062B /* XSUserDefaultTool.m in Sources */,
 				DB847F5923B1F9FC005A60DA /* XSCircleTransition.m in Sources */,
+				DBB0BF21241E137C009EC9D4 /* XSLocationVC.m in Sources */,
 				DB0D7EEF22E0238D006342D8 /* JYGestureVerifyVC.m in Sources */,
 				1C177D3622AF3E0900B0062B /* PCLockLabel.m in Sources */,
 				1C177D3C22AF3E0900B0062B /* XSRequestManager.m in Sources */,

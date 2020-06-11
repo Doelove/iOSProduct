@@ -28,6 +28,8 @@ pod 'ZFPlayer/ControlView','~> 3.0'
 
 pod 'SuperPlayer'
 
+pod 'GPUImage'
+
 end
 
 

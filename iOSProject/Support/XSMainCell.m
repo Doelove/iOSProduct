@@ -11,6 +11,7 @@
 @interface XSMainCell ()
 
 @property(nonatomic,strong)UILabel *titleLabel;
+@property(nonatomic,strong)UIButton *btn;
 
 @end
 
@@ -18,6 +19,7 @@
 
 - (void)createView{
     [self.contentView addSubview:self.titleLabel];
+    [self.contentView addSubview:self.btn];
 }
 
 - (void)setTitle:(NSString *)title{
@@ -31,6 +33,9 @@
         make.left.mas_equalTo(kScaleWidth(15));
         make.centerY.mas_equalTo(weakSelf.contentView.mas_centerY);
     }];
+    [self.btn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.top.bottom.right.mas_equalTo(0);
+    }];
 }
 
 - (UILabel *)titleLabel{
@@ -40,6 +45,20 @@
         _titleLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:kScaleWidth(14)];
     }
     return _titleLabel;
+}
+
+- (UIButton *)btn{
+    if (!_btn) {
+        _btn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_btn addTarget:self action:@selector(handleSelectAction:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _btn;
+}
+
+- (void)handleSelectAction:(UIButton *)sender{
+    if (self.block) {
+        self.block();
+    }
 }
 
 @end
