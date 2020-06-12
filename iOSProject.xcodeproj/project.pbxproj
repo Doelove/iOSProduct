@@ -58,6 +58,8 @@
 		DB5E4E282491CDA3008D8ECE /* XSCyclingNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5E4E272491CDA3008D8ECE /* XSCyclingNavigationVC.m */; };
 		DB6945DF240BBDC500005AF4 /* 指南针.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6945DE240BBDC500005AF4 /* 指南针.png */; };
 		DB6945E3240BBE0200005AF4 /* XSCompassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6945E2240BBE0200005AF4 /* XSCompassVC.m */; };
+		DB732BEF2493811600660F53 /* XSAssestPhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB732BEE2493811600660F53 /* XSAssestPhotoVC.m */; };
+		DB732BF2249382C600660F53 /* XSAssetOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB732BF1249382C600660F53 /* XSAssetOperator.m */; };
 		DB7BEFF42373B7AD00F0E1B3 /* XSShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7BEFF32373B7AD00F0E1B3 /* XSShareVC.m */; };
 		DB7BEFF62373BB8700F0E1B3 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = DB7BEFF52373BB8700F0E1B3 /* 80.png */; };
 		DB7BF03F2375604500F0E1B3 /* XSLocalNotiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7BF03E2375604500F0E1B3 /* XSLocalNotiVC.m */; };
@@ -205,6 +207,10 @@
 		DB6945DE240BBDC500005AF4 /* 指南针.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "指南针.png"; sourceTree = "<group>"; };
 		DB6945E1240BBE0200005AF4 /* XSCompassVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCompassVC.h; sourceTree = "<group>"; };
 		DB6945E2240BBE0200005AF4 /* XSCompassVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCompassVC.m; sourceTree = "<group>"; };
+		DB732BED2493811600660F53 /* XSAssestPhotoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSAssestPhotoVC.h; sourceTree = "<group>"; };
+		DB732BEE2493811600660F53 /* XSAssestPhotoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSAssestPhotoVC.m; sourceTree = "<group>"; };
+		DB732BF0249382C600660F53 /* XSAssetOperator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSAssetOperator.h; sourceTree = "<group>"; };
+		DB732BF1249382C600660F53 /* XSAssetOperator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSAssetOperator.m; sourceTree = "<group>"; };
 		DB7BEFF22373B7AD00F0E1B3 /* XSShareVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSShareVC.h; sourceTree = "<group>"; };
 		DB7BEFF32373B7AD00F0E1B3 /* XSShareVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSShareVC.m; sourceTree = "<group>"; };
 		DB7BEFF52373BB8700F0E1B3 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
@@ -387,6 +393,7 @@
 		1C177D0722AF3E0000B0062B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				DB732BEC2493807300660F53 /* 系统相册操作 */,
 				DB5E4E252491CD5D008D8ECE /* 骑行导航 */,
 				DBC6A988242D99E200581A88 /* GPUImage */,
 				DBB0BF1E241E1341009EC9D4 /* 原生定位 */,
@@ -664,6 +671,17 @@
 				DB6945E2240BBE0200005AF4 /* XSCompassVC.m */,
 			);
 			path = "指南针";
+			sourceTree = "<group>";
+		};
+		DB732BEC2493807300660F53 /* 系统相册操作 */ = {
+			isa = PBXGroup;
+			children = (
+				DB732BED2493811600660F53 /* XSAssestPhotoVC.h */,
+				DB732BEE2493811600660F53 /* XSAssestPhotoVC.m */,
+				DB732BF0249382C600660F53 /* XSAssetOperator.h */,
+				DB732BF1249382C600660F53 /* XSAssetOperator.m */,
+			);
+			path = "系统相册操作";
 			sourceTree = "<group>";
 		};
 		DB7BEFF12373B78C00F0E1B3 /* 原生分享 */ = {
@@ -995,8 +1013,10 @@
 				1C177D3422AF3E0900B0062B /* CALayer+Anim.m in Sources */,
 				DB7BF03F2375604500F0E1B3 /* XSLocalNotiVC.m in Sources */,
 				1C177CF822AF3B7100B0062B /* main.m in Sources */,
+				DB732BEF2493811600660F53 /* XSAssestPhotoVC.m in Sources */,
 				DB7BEFF42373B7AD00F0E1B3 /* XSShareVC.m in Sources */,
 				1C177D3722AF3E0900B0062B /* SPPageMenu.m in Sources */,
+				DB732BF2249382C600660F53 /* XSAssetOperator.m in Sources */,
 				1CA1CE6F22B8C791006096FB /* XSSliderGalleryVC.m in Sources */,
 				DB0D7EF322E02540006342D8 /* PasswordInputWindow.m in Sources */,
 				DB1587B2236136EE000236F9 /* XSAMapVC.m in Sources */,

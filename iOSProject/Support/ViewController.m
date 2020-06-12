@@ -26,8 +26,9 @@
     
     self.title = @"iOS Project";
     [self.view addSubview:self.tableView];
-    self.dataList = @[@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播",@"uiwindow",@"cell左滑编辑",@"日历",@"侧边栏",@"地理编码",@"原生分享",@"本地通知",@"runloop导致timer暂停",@"同页面请求多个接口",@"创建pdf",@"转场动画",@"自定义转场动画分析",@"指南针",@"原生定位",@"XSGPUImageTest01",@"XSGPUImageTest02棕色滤镜",@"骑行导航"];
-    self.nameList = @[@"XSTableHeaderBigVC",@"XSImagePinchPan",@"XSCornerShadowVC",@"XSSpringVC",@"XSViderPlayerVC",@"XSSliderGalleryMainVC",@"",@"XSCellEditVC",@"XSCalendarVC",@"",@"XSAMapVC",@"XSShareVC",@"XSLocalNotiVC",@"XSRunLoopTimerVC",@"XSAsyncRequestVC",@"XSCreatePDFVC",@"XSAnimationFirstVC",@"XSCustomAnimationFirstVC",@"XSCompassVC",@"XSLocationVC",@"XSGPUImageTest01",@"XSGPUImageTest02",@"XSCyclingNavigationVC"];
+    self.dataList = @[@"系统相册操作",@"表头放大",@"图片放大",@"圆角加阴影",@"动画回弹",@"腾讯云播放器",@"轮播",@"uiwindow",@"cell左滑编辑",@"日历",@"侧边栏",@"地理编码",@"原生分享",@"本地通知",@"runloop导致timer暂停",@"同页面请求多个接口",@"创建pdf",@"转场动画",@"自定义转场动画分析",@"指南针",@"原生定位",@"XSGPUImageTest01",@"XSGPUImageTest02棕色滤镜",@"骑行导航"];
+    self.nameList = @[
+        @"XSAssestPhotoVC",@"XSTableHeaderBigVC",@"XSImagePinchPan",@"XSCornerShadowVC",@"XSSpringVC",@"XSViderPlayerVC",@"XSSliderGalleryMainVC",@"",@"XSCellEditVC",@"XSCalendarVC",@"",@"XSAMapVC",@"XSShareVC",@"XSLocalNotiVC",@"XSRunLoopTimerVC",@"XSAsyncRequestVC",@"XSCreatePDFVC",@"XSAnimationFirstVC",@"XSCustomAnimationFirstVC",@"XSCompassVC",@"XSLocationVC",@"XSGPUImageTest01",@"XSGPUImageTest02",@"XSCyclingNavigationVC"];
 
 }
 
