@@ -45,6 +45,7 @@
 		1CBB88ED22AF9CAC00E0A1AE /* mineBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CBB88EC22AF9CAC00E0A1AE /* mineBanner.png */; };
 		1CC6963222AF7A7500CD7022 /* XSTableHeaderBigVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6963122AF7A7500CD7022 /* XSTableHeaderBigVC.m */; };
 		96C2C368CC7DCE188DA4FD3A /* Pods_iOSProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6F07049F3B02355155254A /* Pods_iOSProject.framework */; };
+		DB004DE024E677DC00C93F20 /* XSCompressImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB004DDF24E677DC00C93F20 /* XSCompressImageVC.m */; };
 		DB0D7EE822E00F18006342D8 /* XSSliderGalleryMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EE722E00F18006342D8 /* XSSliderGalleryMainVC.m */; };
 		DB0D7EEF22E0238D006342D8 /* JYGestureVerifyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EED22E0238D006342D8 /* JYGestureVerifyVC.m */; };
 		DB0D7EF022E0238D006342D8 /* JYGesturePasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0D7EEE22E0238D006342D8 /* JYGesturePasswordVC.m */; };
@@ -86,6 +87,9 @@
 		DBF0123E2313BCF500AB25F2 /* CRM_TargetIns_Structure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF0123C2313BCF500AB25F2 /* CRM_TargetIns_Structure@3x.png */; };
 		DBF012412313BD4100AB25F2 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF0123F2313BD4100AB25F2 /* back@2x.png */; };
 		DBF012422313BD4100AB25F2 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF012402313BD4100AB25F2 /* back.png */; };
+		DBF752F124DCF21000BBC263 /* XSTouchMoveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF752F024DCF21000BBC263 /* XSTouchMoveVC.m */; };
+		DBF752F424DCF22600BBC263 /* XSTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF752F324DCF22600BBC263 /* XSTouchView.m */; };
+		DBF752F824DD035E00BBC263 /* XSBackgroundTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF752F724DD035E00BBC263 /* XSBackgroundTimerVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +186,8 @@
 		31BE4B409223590A2EA370DF /* Pods-iOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.debug.xcconfig"; path = "Target Support Files/Pods-iOSProject/Pods-iOSProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8C1945AE0E74F98F72055CA6 /* Pods-iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.release.xcconfig"; path = "Target Support Files/Pods-iOSProject/Pods-iOSProject.release.xcconfig"; sourceTree = "<group>"; };
 		8E6F07049F3B02355155254A /* Pods_iOSProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB004DDE24E677DC00C93F20 /* XSCompressImageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCompressImageVC.h; sourceTree = "<group>"; };
+		DB004DDF24E677DC00C93F20 /* XSCompressImageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCompressImageVC.m; sourceTree = "<group>"; };
 		DB0D7EE622E00F18006342D8 /* XSSliderGalleryMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSSliderGalleryMainVC.h; sourceTree = "<group>"; };
 		DB0D7EE722E00F18006342D8 /* XSSliderGalleryMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSliderGalleryMainVC.m; sourceTree = "<group>"; };
 		DB0D7EEB22E0238D006342D8 /* JYGestureVerifyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYGestureVerifyVC.h; sourceTree = "<group>"; };
@@ -256,6 +262,12 @@
 		DBF0123C2313BCF500AB25F2 /* CRM_TargetIns_Structure@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRM_TargetIns_Structure@3x.png"; sourceTree = "<group>"; };
 		DBF0123F2313BD4100AB25F2 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
 		DBF012402313BD4100AB25F2 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		DBF752EF24DCF21000BBC263 /* XSTouchMoveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSTouchMoveVC.h; sourceTree = "<group>"; };
+		DBF752F024DCF21000BBC263 /* XSTouchMoveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSTouchMoveVC.m; sourceTree = "<group>"; };
+		DBF752F224DCF22600BBC263 /* XSTouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSTouchView.h; sourceTree = "<group>"; };
+		DBF752F324DCF22600BBC263 /* XSTouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSTouchView.m; sourceTree = "<group>"; };
+		DBF752F624DD035E00BBC263 /* XSBackgroundTimerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSBackgroundTimerVC.h; sourceTree = "<group>"; };
+		DBF752F724DD035E00BBC263 /* XSBackgroundTimerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSBackgroundTimerVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -393,6 +405,9 @@
 		1C177D0722AF3E0000B0062B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				DB004DDD24E677A200C93F20 /* 图片压缩 */,
+				DBF752F524DD034000BBC263 /* 后台定时器运行 */,
+				DBF752EE24DCF1B300BBC263 /* 视图拖动 */,
 				DB732BEC2493807300660F53 /* 系统相册操作 */,
 				DB5E4E252491CD5D008D8ECE /* 骑行导航 */,
 				DBC6A988242D99E200581A88 /* GPUImage */,
@@ -581,6 +596,15 @@
 				8C1945AE0E74F98F72055CA6 /* Pods-iOSProject.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB004DDD24E677A200C93F20 /* 图片压缩 */ = {
+			isa = PBXGroup;
+			children = (
+				DB004DDE24E677DC00C93F20 /* XSCompressImageVC.h */,
+				DB004DDF24E677DC00C93F20 /* XSCompressImageVC.m */,
+			);
+			path = "图片压缩";
 			sourceTree = "<group>";
 		};
 		DB0D7EE922E02347006342D8 /* 手势密码（UIWindow） */ = {
@@ -782,6 +806,26 @@
 				DBF012392313B91100AB25F2 /* XSSideMenuRightVC.m */,
 			);
 			path = "侧边栏";
+			sourceTree = "<group>";
+		};
+		DBF752EE24DCF1B300BBC263 /* 视图拖动 */ = {
+			isa = PBXGroup;
+			children = (
+				DBF752EF24DCF21000BBC263 /* XSTouchMoveVC.h */,
+				DBF752F024DCF21000BBC263 /* XSTouchMoveVC.m */,
+				DBF752F224DCF22600BBC263 /* XSTouchView.h */,
+				DBF752F324DCF22600BBC263 /* XSTouchView.m */,
+			);
+			path = "视图拖动";
+			sourceTree = "<group>";
+		};
+		DBF752F524DD034000BBC263 /* 后台定时器运行 */ = {
+			isa = PBXGroup;
+			children = (
+				DBF752F624DD035E00BBC263 /* XSBackgroundTimerVC.h */,
+				DBF752F724DD035E00BBC263 /* XSBackgroundTimerVC.m */,
+			);
+			path = "后台定时器运行";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1002,8 +1046,10 @@
 				1C177D0B22AF3E0000B0062B /* XSBaseModel.m in Sources */,
 				DB7F0FA02395FD8500FE0071 /* XSDrawPDFView.m in Sources */,
 				1C177D0822AF3E0000B0062B /* XSBaseVC.m in Sources */,
+				DB004DE024E677DC00C93F20 /* XSCompressImageVC.m in Sources */,
 				DB847F5323B1BF45005A60DA /* XSCustomAnimationFirstVC.m in Sources */,
 				1C177D0A22AF3E0000B0062B /* XSMainTabBarC.m in Sources */,
+				DBF752F124DCF21000BBC263 /* XSTouchMoveVC.m in Sources */,
 				DB4D0A76238FB73A00903E92 /* XSAsyncRequestVC.m in Sources */,
 				1C177D3822AF3E0900B0062B /* XSUserInfo.m in Sources */,
 				DB5E4E282491CDA3008D8ECE /* XSCyclingNavigationVC.m in Sources */,
@@ -1028,6 +1074,7 @@
 				1C177D3E22AF3E0900B0062B /* XSTool.m in Sources */,
 				DB7F0FA32396007000FE0071 /* XSShowPDFVC.m in Sources */,
 				DB0D7EE822E00F18006342D8 /* XSSliderGalleryMainVC.m in Sources */,
+				DBF752F824DD035E00BBC263 /* XSBackgroundTimerVC.m in Sources */,
 				DBF0122C2313B1D000AB25F2 /* JYCalendarView.m in Sources */,
 				1C8DC96D22DDB919001FEDAA /* XSSpringVC.m in Sources */,
 				1C177D3A22AF3E0900B0062B /* UIView+Frame.m in Sources */,
@@ -1035,6 +1082,7 @@
 				1C177CF522AF3B7100B0062B /* ViewController.m in Sources */,
 				1C177D3B22AF3E0900B0062B /* XSUserDefaultTool.m in Sources */,
 				DB847F5923B1F9FC005A60DA /* XSCircleTransition.m in Sources */,
+				DBF752F424DCF22600BBC263 /* XSTouchView.m in Sources */,
 				DBB0BF21241E137C009EC9D4 /* XSLocationVC.m in Sources */,
 				DB0D7EEF22E0238D006342D8 /* JYGestureVerifyVC.m in Sources */,
 				1C177D3622AF3E0900B0062B /* PCLockLabel.m in Sources */,
