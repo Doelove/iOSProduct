@@ -24,7 +24,6 @@
     [super viewDidLoad];
     
     self.date = [NSDate date];
-    [self setBackBtn];
     self.title = @"日历";
     [self createCalendarView];
 

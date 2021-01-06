@@ -73,6 +73,10 @@
 		DB847F5623B1C015005A60DA /* XSCustomAnimationSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB847F5523B1C015005A60DA /* XSCustomAnimationSecondVC.m */; };
 		DB847F5923B1F9FC005A60DA /* XSCircleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB847F5823B1F9FC005A60DA /* XSCircleTransition.m */; };
 		DB847F6423B35824005A60DA /* Particles_fire.png in Resources */ = {isa = PBXBuildFile; fileRef = DB847F6323B35824005A60DA /* Particles_fire.png */; };
+		DB9B9700253D6EC2000550AA /* UIControl+click.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9B96FF253D6EC2000550AA /* UIControl+click.m */; };
+		DB9B970B253D76F0000550AA /* XCAppleMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9B970A253D76F0000550AA /* XCAppleMapVC.m */; };
+		DB9B9714253D7726000550AA /* GXPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9B9712253D7725000550AA /* GXPickerView.m */; };
+		DBA636992520695C00BC79A1 /* XSClickButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA636982520695C00BC79A1 /* XSClickButtonVC.m */; };
 		DBB0BF21241E137C009EC9D4 /* XSLocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB0BF20241E137C009EC9D4 /* XSLocationVC.m */; };
 		DBC6A98C242D99F800581A88 /* XSGPUImageTest01.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC6A98B242D99F800581A88 /* XSGPUImageTest01.m */; };
 		DBC6A990242DEADB00581A88 /* XSGPUImageTest02.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC6A98F242DEADB00581A88 /* XSGPUImageTest02.m */; };
@@ -239,6 +243,14 @@
 		DB847F5723B1F9FC005A60DA /* XSCircleTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSCircleTransition.h; sourceTree = "<group>"; };
 		DB847F5823B1F9FC005A60DA /* XSCircleTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSCircleTransition.m; sourceTree = "<group>"; };
 		DB847F6323B35824005A60DA /* Particles_fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particles_fire.png; sourceTree = "<group>"; };
+		DB9B96FE253D6EC2000550AA /* UIControl+click.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+click.h"; sourceTree = "<group>"; };
+		DB9B96FF253D6EC2000550AA /* UIControl+click.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+click.m"; sourceTree = "<group>"; };
+		DB9B9709253D76F0000550AA /* XCAppleMapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCAppleMapVC.h; sourceTree = "<group>"; };
+		DB9B970A253D76F0000550AA /* XCAppleMapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCAppleMapVC.m; sourceTree = "<group>"; };
+		DB9B9712253D7725000550AA /* GXPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXPickerView.m; sourceTree = "<group>"; };
+		DB9B9713253D7726000550AA /* GXPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXPickerView.h; sourceTree = "<group>"; };
+		DBA636972520695C00BC79A1 /* XSClickButtonVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSClickButtonVC.h; sourceTree = "<group>"; };
+		DBA636982520695C00BC79A1 /* XSClickButtonVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSClickButtonVC.m; sourceTree = "<group>"; };
 		DBB0BF1F241E137C009EC9D4 /* XSLocationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSLocationVC.h; sourceTree = "<group>"; };
 		DBB0BF20241E137C009EC9D4 /* XSLocationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSLocationVC.m; sourceTree = "<group>"; };
 		DBC6A98A242D99F800581A88 /* XSGPUImageTest01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSGPUImageTest01.h; sourceTree = "<group>"; };
@@ -405,6 +417,8 @@
 		1C177D0722AF3E0000B0062B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				DB9B9708253D76C5000550AA /* 调用自带地图 */,
+				DBA636962520692900BC79A1 /* 按钮暴力点击 */,
 				DB004DDD24E677A200C93F20 /* 图片压缩 */,
 				DBF752F524DD034000BBC263 /* 后台定时器运行 */,
 				DBF752EE24DCF1B300BBC263 /* 视图拖动 */,
@@ -745,6 +759,28 @@
 			path = "转场动画";
 			sourceTree = "<group>";
 		};
+		DB9B9708253D76C5000550AA /* 调用自带地图 */ = {
+			isa = PBXGroup;
+			children = (
+				DB9B9709253D76F0000550AA /* XCAppleMapVC.h */,
+				DB9B970A253D76F0000550AA /* XCAppleMapVC.m */,
+				DB9B9713253D7726000550AA /* GXPickerView.h */,
+				DB9B9712253D7725000550AA /* GXPickerView.m */,
+			);
+			path = "调用自带地图";
+			sourceTree = "<group>";
+		};
+		DBA636962520692900BC79A1 /* 按钮暴力点击 */ = {
+			isa = PBXGroup;
+			children = (
+				DBA636972520695C00BC79A1 /* XSClickButtonVC.h */,
+				DBA636982520695C00BC79A1 /* XSClickButtonVC.m */,
+				DB9B96FE253D6EC2000550AA /* UIControl+click.h */,
+				DB9B96FF253D6EC2000550AA /* UIControl+click.m */,
+			);
+			path = "按钮暴力点击";
+			sourceTree = "<group>";
+		};
 		DBB0BF1E241E1341009EC9D4 /* 原生定位 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1036,13 +1072,16 @@
 				1C0E27AE22C36FF700B0149E /* XSViderPlayerVC.m in Sources */,
 				1C177D3522AF3E0900B0062B /* PCCircleInfoView.m in Sources */,
 				1C8DC96922DDB911001FEDAA /* XSImageSubView.m in Sources */,
+				DB9B9714253D7726000550AA /* GXPickerView.m in Sources */,
 				DB847F5623B1C015005A60DA /* XSCustomAnimationSecondVC.m in Sources */,
 				DB4D0A71238F5C3C00903E92 /* XSTimerCell.m in Sources */,
 				1C177D3322AF3E0900B0062B /* PCCircleView.m in Sources */,
 				DB847F4D23B0C014005A60DA /* XSAnimationSecondVC.m in Sources */,
 				DB847F5023B0C034005A60DA /* UINavigationController+CATransition.m in Sources */,
+				DBA636992520695C00BC79A1 /* XSClickButtonVC.m in Sources */,
 				DB6945E3240BBE0200005AF4 /* XSCompassVC.m in Sources */,
 				DB4D0A6E238F5B5A00903E92 /* XSRunLoopTimerVC.m in Sources */,
+				DB9B970B253D76F0000550AA /* XCAppleMapVC.m in Sources */,
 				1C177D0B22AF3E0000B0062B /* XSBaseModel.m in Sources */,
 				DB7F0FA02395FD8500FE0071 /* XSDrawPDFView.m in Sources */,
 				1C177D0822AF3E0000B0062B /* XSBaseVC.m in Sources */,
@@ -1059,6 +1098,7 @@
 				1C177D3422AF3E0900B0062B /* CALayer+Anim.m in Sources */,
 				DB7BF03F2375604500F0E1B3 /* XSLocalNotiVC.m in Sources */,
 				1C177CF822AF3B7100B0062B /* main.m in Sources */,
+				DB9B9700253D6EC2000550AA /* UIControl+click.m in Sources */,
 				DB732BEF2493811600660F53 /* XSAssestPhotoVC.m in Sources */,
 				DB7BEFF42373B7AD00F0E1B3 /* XSShareVC.m in Sources */,
 				1C177D3722AF3E0900B0062B /* SPPageMenu.m in Sources */,

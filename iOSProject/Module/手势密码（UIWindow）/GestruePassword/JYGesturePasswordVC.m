@@ -37,7 +37,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setBackBtn];
     [self.view setBackgroundColor:CircleViewBackgroundColor];
     self.navigationController.delegate = self;
     [self setupUI];

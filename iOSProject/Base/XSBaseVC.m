@@ -22,7 +22,7 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
     
     self.tabbarHeight = self.tabBarController.tabBar.frame.size.height;
-    
+    [self setBackBtn];
     [[WHC_KeyboardManager share]addMonitorViewController:self];
     self.view.backgroundColor = [UIColor whiteColor];
     // ------

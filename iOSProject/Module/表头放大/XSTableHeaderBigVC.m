@@ -20,7 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self setBackBtn];
     self.view.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.tableView];
     [self setLayoutHeaderView];
@@ -67,7 +66,7 @@
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"ce"];
     }
-    cell.textLabel.text = @"表头放大";
+    cell.textLabel.text = [NSString stringWithFormat:@"表头放大%ld",(long)indexPath.row];
     return cell;
 }
 
@@ -76,7 +75,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 1;
+    return 30;
 }
 
 @end

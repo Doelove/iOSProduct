@@ -23,7 +23,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self setBackBtn];
     self.dataList = @[@"淡化",@"覆盖",@"push",@"揭开",@"3D立方",@"吮吸",@"翻转",@"波纹",@"翻页",@"反翻页",@"开镜头",@"关镜头"];
     [self.view addSubview:self.tableView];
     

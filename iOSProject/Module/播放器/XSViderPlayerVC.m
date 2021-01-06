@@ -22,7 +22,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setBackBtn];
     _superPlayerView = [[SuperPlayerView alloc]init];
     _superPlayerView.delegate = self;
     _superPlayerView.fatherView = self.view;

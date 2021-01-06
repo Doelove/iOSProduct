@@ -26,7 +26,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self setBackBtn];
     self.view.backgroundColor = [UIColor whiteColor];
     self.dataList = @[@"1.jpeg",@"2.jpeg"];
     self.imageList = [NSMutableArray array];

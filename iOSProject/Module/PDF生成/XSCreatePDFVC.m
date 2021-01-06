@@ -253,7 +253,7 @@ CGContextRef MyPDFContextCreate(const CGRect *inMediaBox, CFStringRef path){
         _docBtn.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:kScaleWidth(16)];
         [_docBtn setTitle:@"UIDocumentInteractionController" forState:UIControlStateNormal];
         [_docBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        [_docBtn addTarget:self action:@selector(handleSelectAction:) forControlEvents:UIControlEventTouchUpInside];
+        [_docBtn addTarget:self action:@selector(handleDocAction:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _docBtn;
 }
@@ -302,7 +302,6 @@ CGContextRef MyPDFContextCreate(const CGRect *inMediaBox, CFStringRef path){
     NSArray *vcs = [NSArray arrayWithObject:pdfVC];
     [pageC setViewControllers:vcs direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
     [self pushVC:pageC];
-    
     
 }
 
